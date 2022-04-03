@@ -1,0 +1,736 @@
+[2022-03-17 23:16:22,478] DEBUG    PluginManager Loading plugin: AnnounceBitTorrent (builtin)
+[2022-03-17 23:16:22,544] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2022-03-17 23:16:22,544] DEBUG    PluginManager Loading plugin: AnnounceLocal (builtin)
+[2022-03-17 23:16:22,569] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2022-03-17 23:16:22,569] DEBUG    PluginManager New plugin registered to: FileServer
+[2022-03-17 23:16:22,569] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2022-03-17 23:16:22,569] DEBUG    PluginManager Loading plugin: AnnounceShare (builtin)
+[2022-03-17 23:16:22,570] DEBUG    TrackerStorage Loaded 7 shared trackers
+[2022-03-17 23:16:22,570] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2022-03-17 23:16:22,570] DEBUG    PluginManager New plugin registered to: FileRequest
+[2022-03-17 23:16:22,570] DEBUG    PluginManager New plugin registered to: FileServer
+[2022-03-17 23:16:22,570] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2022-03-17 23:16:22,570] DEBUG    PluginManager Loading plugin: AnnounceZero (builtin)
+[2022-03-17 23:16:22,570] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2022-03-17 23:16:22,571] DEBUG    PluginManager Loading plugin: Bigfile (builtin)
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: ContentManager
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: WorkerManager
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: FileRequest
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: Peer
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: Site
+[2022-03-17 23:16:22,572] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2022-03-17 23:16:22,573] DEBUG    PluginManager Loading plugin: Chart (builtin)
+[2022-03-17 23:16:22,577] DEBUG    Db:Chart Connected to /home/choi/Zeronet/data/chart.db in 0.002s (opened: 1, sqlite version: 2.6.0)...
+[2022-03-17 23:16:22,577] DEBUG    Db:Chart Db check done in 0.002s, changed tables: []
+[2022-03-17 23:16:22,578] DEBUG    PluginManager New plugin registered to: SiteManager
+[2022-03-17 23:16:22,578] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,578] DEBUG    PluginManager Loading plugin: ContentFilter (builtin)
+[2022-03-17 23:16:22,592] DEBUG    PluginManager New plugin registered to: SiteManager
+[2022-03-17 23:16:22,593] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,593] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2022-03-17 23:16:22,593] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,593] DEBUG    PluginManager Loading plugin: Cors (builtin)
+[2022-03-17 23:16:22,593] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,593] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,593] DEBUG    PluginManager Loading plugin: CryptMessage (builtin)
+[2022-03-17 23:16:22,627] INFO     - Libsecpk256k1 loaded: CompiledLib in 0.021s
+[2022-03-17 23:16:22,627] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,627] DEBUG    PluginManager New plugin registered to: User
+[2022-03-17 23:16:22,627] DEBUG    PluginManager Loading plugin: FilePack (builtin)
+[2022-03-17 23:16:22,628] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,628] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2022-03-17 23:16:22,628] DEBUG    PluginManager Loading plugin: MergerSite (builtin)
+[2022-03-17 23:16:22,629] DEBUG    PluginManager New plugin registered to: ContentDb
+[2022-03-17 23:16:22,629] DEBUG    PluginManager New plugin registered to: ContentManager
+[2022-03-17 23:16:22,629] DEBUG    PluginManager New plugin registered to: WorkerManager
+[2022-03-17 23:16:22,629] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: FileRequest
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: Site
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: Site
+[2022-03-17 23:16:22,630] DEBUG    PluginManager New plugin registered to: SiteManager
+[2022-03-17 23:16:22,630] DEBUG    PluginManager Loading plugin: Newsfeed (builtin)
+[2022-03-17 23:16:22,631] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,631] DEBUG    PluginManager New plugin registered to: User
+[2022-03-17 23:16:22,631] DEBUG    PluginManager Loading plugin: OptionalManager (builtin)
+[2022-03-17 23:16:22,631] DEBUG    PluginManager Loading plugin: PeerDb (builtin)
+[2022-03-17 23:16:22,631] DEBUG    PluginManager New plugin registered to: ContentDb
+[2022-03-17 23:16:22,631] DEBUG    PluginManager Loading plugin: Sidebar (builtin)
+[2022-03-17 23:16:22,632] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,632] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,632] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,632] DEBUG    PluginManager Loading plugin: Stats (builtin)
+[2022-03-17 23:16:22,633] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,633] DEBUG    PluginManager Loading plugin: TranslateSite (builtin)
+[2022-03-17 23:16:22,633] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,633] DEBUG    PluginManager Loading plugin: Trayicon (builtin)
+[2022-03-17 23:16:22,634] DEBUG    PluginManager Loading plugin: UiConfig (builtin)
+[2022-03-17 23:16:22,634] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,634] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,634] DEBUG    PluginManager Loading plugin: UiPluginManager (builtin)
+[2022-03-17 23:16:22,635] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,635] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2022-03-17 23:16:22,635] DEBUG    PluginManager Loading plugin: Zeroname (builtin)
+[2022-03-17 23:16:22,635] DEBUG    PluginManager New plugin registered to: UiRequest
+[2022-03-17 23:16:22,635] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2022-03-17 23:16:22,635] DEBUG    PluginManager New plugin registered to: SiteManager
+[2022-03-17 23:16:22,635] DEBUG    PluginManager Plugins loaded in 0.157s
+[2022-03-17 23:16:22,636] DEBUG    PluginManager New class accepts plugins: Peer (Loaded plugins: [<class 'Bigfile.BigfilePlugin.PeerPlugin'>, <class 'Peer.Peer.Peer'>])
+[2022-03-17 23:16:22,637] DEBUG    PluginManager New class accepts plugins: SiteAnnouncer (Loaded plugins: [<class 'AnnounceZero.AnnounceZeroPlugin.SiteAnnouncerPlugin'>, <class 'AnnounceShare.AnnounceSharePlugin.SiteAnnouncerPlugin'>, <class 'AnnounceLocal.AnnounceLocalPlugin.SiteAnnouncerPlugin'>, <class 'AnnounceBitTorrent.AnnounceBitTorrentPlugin.SiteAnnouncerPlugin'>, <class 'Site.SiteAnnouncer.SiteAnnouncer'>])
+[2022-03-17 23:16:22,649] DEBUG    PluginManager New class accepts plugins: ContentDb (Loaded plugins: [<class 'PeerDb.PeerDbPlugin.ContentDbPlugin'>, <class 'OptionalManager.ContentDbPlugin.ContentDbPlugin'>, <class 'Content.ContentDb.ContentDb'>])
+[2022-03-17 23:16:22,649] DEBUG    Db:ContentDb Connected to /home/choi/Zeronet/data/content.db in 0.000s (opened: 2, sqlite version: 2.6.0)...
+[2022-03-17 23:16:22,650] DEBUG    Db:ContentDb Db check done in 0.000s, changed tables: []
+[2022-03-17 23:16:22,650] DEBUG    Db:ContentDb Checking foreign keys...
+[2022-03-17 23:16:22,650] DEBUG    PluginManager New class accepts plugins: ContentManager (Loaded plugins: [<class 'OptionalManager.OptionalManagerPlugin.ContentManagerPlugin'>, <class 'Bigfile.BigfilePlugin.ContentManagerPlugin'>, <class 'Content.ContentManager.ContentManager'>])
+[2022-03-17 23:16:22,650] DEBUG    PluginManager New class accepts plugins: ConfigPlugin (Loaded plugins: [<class 'Zeroname.UiRequestPlugin.ConfigPlugin'>, <class 'OptionalManager.OptionalManagerPlugin.ConfigPlugin'>, <class 'Bigfile.BigfilePlugin.ConfigPlugin'>, <class 'AnnounceShare.AnnounceSharePlugin.ConfigPlugin'>, <class 'AnnounceLocal.AnnounceLocalPlugin.ConfigPlugin'>, <class 'Config.Config.loadPlugins.<locals>.ConfigPlugin'>])
+[2022-03-17 23:16:22,651] DEBUG    - Config: Config(action='main', autodownload_bigfile_size_limit=10, batch=False, bigfile_size_limit=False, bind=None, bit_resolver='1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F', broadcast_port=1544, coffeescript_compiler=None, config_file='/home/choi/Zeronet/zeronet.conf', connected_limit=8, console_log_level='default', data_dir='/home/choi/Zeronet/data', db_mode='speed', debug=False, debug_socket=False, disable_db=False, disable_encryption=False, disable_sslcompression=True, disable_udp=False, dist_type='bundle_linux64', download_optional='manual', end=True, file_size_limit=10, fileserver_ip='*', fileserver_ip_type='ipv4', fileserver_port=28537, fileserver_port_range='10000-40000', fix_float_decimals=False, force_encryption=False, global_connected_limit=512, homepage='1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D', ip_external=None, ip_local=['127.0.0.1', '::1'], keep_ssl_cert=False, language='en', log_dir='/home/choi/Zeronet/log', log_level='DEBUG', log_rotate='daily', log_rotate_backup_count=5, max_files_opened=2048, merge_media=False, msgpack_purepython=False, offline=False, open_browser='default_browser', optional_limit='10%', optional_limit_exclude_minsize=20, proxy=None, silent=False, size_limit=10, stack_size=None, stream_downloads=False, tor='enable', tor_controller='127.0.0.1:9051', tor_hs_limit=10, tor_hs_port=15441, tor_password=None, tor_proxy='127.0.0.1:9050', tor_use_bridges=False, trackers=['zero://boot3rdez4rzn36x.onion:15441', 'zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443', 'udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://tracker01.loveapp.com:6789/announce', 'http://open.acgnxtracker.com:80/announce', 'http://open.trackerlist.xyz:80/announce', 'zero://2602:ffc5::c5b2:5360:26312'], trackers_file=None, trackers_proxy='disable', ui_host=None, ui_ip='127.0.0.1', ui_port=43110, ui_restrict=False, ui_trans_proxy=False, updatesite='1uPDaT3uSyWAPdCv1WkMb5hBQjWSNNACf', use_libsecp256k1=True, use_openssl=True, use_tempfiles=False, verbose=False, workers=5, working_shared_trackers_limit=5)
+[2022-03-17 23:16:22,651] INFO     - Version: 0.7.1 r4206, Python 3.7.3 (default, Mar 27 2019, 22:11:17) 
+[GCC 7.3.0], Gevent: 1.4.0
+[2022-03-17 23:16:22,652] DEBUG    PluginManager New class accepts plugins: FileRequest (Loaded plugins: [<class 'OptionalManager.OptionalManagerPlugin.FileRequestPlugin'>, <class 'Bigfile.BigfilePlugin.FileRequestPlugin'>, <class 'AnnounceShare.AnnounceSharePlugin.FileRequestPlugin'>, <class 'File.FileRequest.FileRequest'>])
+[2022-03-17 23:16:22,653] DEBUG    PluginManager New class accepts plugins: SiteManager (Loaded plugins: [<class 'Zeroname.SiteManagerPlugin.SiteManagerPlugin'>, <class 'MergerSite.MergerSitePlugin.SiteManagerPlugin'>, <class 'ContentFilter.ContentFilterPlugin.SiteManagerPlugin'>, <class 'Chart.ChartPlugin.SiteManagerPlugin'>, <class 'Site.SiteManager.SiteManager'>])
+[2022-03-17 23:16:22,653] DEBUG    SiteManager SiteManager created.
+[2022-03-17 23:16:22,654] DEBUG    CryptConnectionManager Version: OpenSSL 1.1.1c  28 May 2019
+[2022-03-17 23:16:22,654] DEBUG    PluginManager New class accepts plugins: FileServer (Loaded plugins: [<class 'AnnounceShare.AnnounceSharePlugin.FileServerPlugin'>, <class 'AnnounceLocal.AnnounceLocalPlugin.FileServerPlugin'>, <class 'File.FileServer.FileServer'>])
+[2022-03-17 23:16:22,668] DEBUG    PluginManager New class accepts plugins: User (Loaded plugins: [<class 'Newsfeed.NewsfeedPlugin.UserPlugin'>, <class 'CryptMessage.CryptMessagePlugin.UserPlugin'>, <class 'User.User.User'>])
+[2022-03-17 23:16:22,669] DEBUG    PluginManager New class accepts plugins: UiWebsocket (Loaded plugins: [<class 'UiPluginManager.UiPluginManagerPlugin.UiWebsocketPlugin'>, <class 'UiConfig.UiConfigPlugin.UiWebsocketPlugin'>, <class 'Sidebar.ConsolePlugin.UiWebsocketPlugin'>, <class 'Sidebar.SidebarPlugin.UiWebsocketPlugin'>, <class 'Newsfeed.NewsfeedPlugin.UiWebsocketPlugin'>, <class 'MergerSite.MergerSitePlugin.UiWebsocketPlugin'>, <class 'OptionalManager.UiWebsocketPlugin.UiWebsocketPlugin'>, <class 'CryptMessage.CryptMessagePlugin.UiWebsocketPlugin'>, <class 'Cors.CorsPlugin.UiWebsocketPlugin'>, <class 'ContentFilter.ContentFilterPlugin.UiWebsocketPlugin'>, <class 'Chart.ChartPlugin.UiWebsocketPlugin'>, <class 'Bigfile.BigfilePlugin.UiWebsocketPlugin'>, <class 'Ui.UiWebsocket.UiWebsocket'>])
+[2022-03-17 23:16:22,669] DEBUG    PluginManager New class accepts plugins: UiRequest (Loaded plugins: [<class 'Zeroname.UiRequestPlugin.UiRequestPlugin'>, <class 'UiPluginManager.UiPluginManagerPlugin.UiRequestPlugin'>, <class 'UiConfig.UiConfigPlugin.UiRequestPlugin'>, <class 'TranslateSite.TranslateSitePlugin.UiRequestPlugin'>, <class 'Stats.StatsPlugin.UiRequestPlugin'>, <class 'Sidebar.SidebarPlugin.UiRequestPlugin'>, <class 'MergerSite.MergerSitePlugin.UiRequestPlugin'>, <class 'OptionalManager.OptionalManagerPlugin.UiRequestPlugin'>, <class 'FilePack.FilePackPlugin.UiRequestPlugin'>, <class 'Cors.CorsPlugin.UiRequestPlugin'>, <class 'ContentFilter.ContentFilterPlugin.UiRequestPlugin'>, <class 'Bigfile.BigfilePlugin.UiRequestPlugin'>, <class 'Ui.UiRequest.UiRequest'>])
+[2022-03-17 23:16:22,669] INFO     - Creating FileServer....
+[2022-03-17 23:16:22,676] DEBUG    - Gevent block checker started
+[2022-03-17 23:16:22,676] WARNING  FileServer IPv6 not supported: [Errno 101] Network is unreachable
+[2022-03-17 23:16:22,676] DEBUG    ConnServer Supported IP types: ['ipv4']
+[2022-03-17 23:16:22,676] INFO     - Creating UiServer....
+[2022-03-17 23:16:22,676] DEBUG    SiteManager Sites not loaded yet...
+[2022-03-17 23:16:22,676] DEBUG    SiteManager Loading sites...
+[2022-03-17 23:16:22,678] DEBUG    PluginManager New class accepts plugins: WorkerManager (Loaded plugins: [<class 'OptionalManager.OptionalManagerPlugin.WorkerManagerPlugin'>, <class 'Bigfile.BigfilePlugin.WorkerManagerPlugin'>, <class 'Worker.WorkerManager.WorkerManager'>])
+[2022-03-17 23:16:22,679] DEBUG    PluginManager New class accepts plugins: SiteStorage (Loaded plugins: [<class 'MergerSite.MergerSitePlugin.SiteStoragePlugin'>, <class 'FilePack.FilePackPlugin.SiteStoragePlugin'>, <class 'ContentFilter.ContentFilterPlugin.SiteStoragePlugin'>, <class 'Bigfile.BigfilePlugin.SiteStoragePlugin'>, <class 'Site.SiteStorage.SiteStorage'>])
+[2022-03-17 23:16:22,679] DEBUG    PluginManager New class accepts plugins: Site (Loaded plugins: [<class 'MergerSite.MergerSitePlugin.SitePlugin'>, <class 'OptionalManager.OptionalManagerPlugin.SitePlugin'>, <class 'Bigfile.BigfilePlugin.SitePlugin'>, <class 'Site.Site.Site'>])
+[2022-03-17 23:16:22,680] DEBUG    Site:15DoUz..L4KK ContentDb init: 0.000s, found files: 1, sites: 5
+[2022-03-17 23:16:22,680] DEBUG    SiteManager Loaded site 15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK in 0.001s
+[2022-03-17 23:16:22,680] DEBUG    SiteManager Found new site in sites.json: 1Gfey7wVXXg1rxk751TBTxLJwhddDNfcdp
+[2022-03-17 23:16:22,680] DEBUG    Site:1HeLLo..Tf3D ContentDb init: 0.000s, found files: 1, sites: 5
+[2022-03-17 23:16:22,680] DEBUG    SiteManager Loaded site 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D in 0.000s
+[2022-03-17 23:16:22,681] DEBUG    Site:1Name2..hM9F ContentDb init: 0.000s, found files: 1, sites: 5
+[2022-03-17 23:16:22,681] DEBUG    SiteManager Loaded site 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F in 0.000s
+[2022-03-17 23:16:22,682] DEBUG    Site:1TaLkF..jipT ContentDb init: 0.001s, found files: 2071, sites: 5
+[2022-03-17 23:16:22,683] DEBUG    SiteManager Loaded site 1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT in 0.002s
+[2022-03-17 23:16:22,683] INFO     SiteManager Deleting orphan site from content.db: 1Gfey7wVXXg1rxk751TBTxLJwhddDNfcdp
+[2022-03-17 23:16:22,683] DEBUG    SiteManager SiteManager added 5 sites
+[2022-03-17 23:16:22,683] DEBUG    ContentFilterStorage Loaded 0 mutes, 0 blocked sites from 0 includes in 0.000s
+[2022-03-17 23:16:22,683] DEBUG    SiteManager Updated merger sites in 0.000s
+[2022-03-17 23:16:22,683] INFO     - Removing old SSL certs...
+[2022-03-17 23:16:22,685] INFO     - Starting servers....
+[2022-03-17 23:16:22,685] DEBUG    SiteManager Added new site: 1Gfey7wVXXg1rxk751TBTxLJwhddDNfcdp
+[2022-03-17 23:16:22,685] DEBUG    Site:1Gfey7..fcdp ContentDb init: 0.000s, found files: 0, sites: 5
+[2022-03-17 23:16:22,685] DEBUG    Site:1Gfey7..fcdp ContentDb not initialized, load files from filesystem
+[2022-03-17 23:16:22,685] DEBUG    Site:1Gfey7..fcdp Content.json not exist: /home/choi/Zeronet/data/1Gfey7wVXXg1rxk751TBTxLJwhddDNfcdp/content.json
+[2022-03-17 23:16:22,685] INFO     Ui.UiServer --------------------------------------
+[2022-03-17 23:16:22,685] INFO     Ui.UiServer Web interface: http://127.0.0.1:43110/
+[2022-03-17 23:16:22,686] INFO     Ui.UiServer --------------------------------------
+[2022-03-17 23:16:22,686] INFO     - Opening browser: default_browser...
+[2022-03-17 23:16:22,748] DEBUG    - Current RLIMIT_NOFILE: 1024 (max: 1048576), changing to 2048...
+[2022-03-17 23:16:22,748] DEBUG    CryptConnectionManager Generating RSA CAcert and CAkey PEM files...
+[2022-03-17 23:16:22,749] DEBUG    CryptConnectionManager Running: "../runtime/bin/openssl" req -new -newkey rsa:2048 -days 3650 -nodes -x509 -config "src/lib/openssl/openssl.cnf" -subj "/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3" -keyout "/home/choi/Zeronet/data/cakey-rsa.pem" -out "/home/choi/Zeronet/data/cacert-rsa.pem" -batch
+[2022-03-17 23:16:22,795] DEBUG    CryptConnectionManager Result: Generating a RSA private key
+.+++++
+.........................................+++++
+writing new private key to '/home/choi/Zeronet/data/cakey-rsa.pem'
+-----
+[2022-03-17 23:16:22,795] DEBUG    CryptConnectionManager Generating certificate key and signing request...
+[2022-03-17 23:16:22,887] DEBUG    CryptConnectionManager Running: "../runtime/bin/openssl" req -new -newkey rsa:2048 -keyout "/home/choi/Zeronet/data/key-rsa.pem" -out "/home/choi/Zeronet/data/cert-rsa.csr" -subj "/CN=debian.org" -sha256 -nodes -batch -config "src/lib/openssl/openssl.cnf"
+Generating a RSA private key
+.........................+++++
+........................................................................+++++
+writing new private key to '/home/choi/Zeronet/data/key-rsa.pem'
+-----
+[2022-03-17 23:16:22,887] DEBUG    CryptConnectionManager Generating RSA cert...
+[2022-03-17 23:16:22,894] DEBUG    CryptConnectionManager Running: "../runtime/bin/openssl" x509 -req -in "/home/choi/Zeronet/data/cert-rsa.csr" -CA "/home/choi/Zeronet/data/cacert-rsa.pem" -CAkey "/home/choi/Zeronet/data/cakey-rsa.pem" -set_serial 01 -out "/home/choi/Zeronet/data/cert-rsa.pem" -days 730 -sha256 -extensions x509_ext -extfile "src/lib/openssl/openssl.cnf"
+Signature ok
+subject=CN = debian.org
+Getting CA Private Key
+[2022-03-17 23:16:22,895] DEBUG    TorManager Starting (Tor: enable)
+[2022-03-17 23:16:22,895] DEBUG    TorManager Connecting to Tor Controller 127.0.0.1:9051
+[2022-03-17 23:16:22,899] DEBUG    SiteManager Saved sites in 0.00s (generate: 0.00s, write: 0.00s)
+[2022-03-17 23:16:22,899] DEBUG    SiteManager Updated merger sites in 0.000s
+[2022-03-17 23:16:22,899] DEBUG    Site:1Gfey7..fcdp Start downloading, bad_files: {'content.json': 16}, check_size: True, blind_includes: True
+[2022-03-17 23:16:22,899] DEBUG    Site:1Gfey7..fcdp Need content.json first
+[2022-03-17 23:16:22,899] DEBUG    BroadcastServer Started on port 1544
+[2022-03-17 23:16:22,899] DEBUG    BroadcastServer Sending discover request (force: True)
+[2022-03-17 23:16:22,899] DEBUG    Site:1Gfey7..fcdp Force reannounce in mode start
+[2022-03-17 23:16:22,900] DEBUG    BroadcastServer Sending discover request (force: False)
+[2022-03-17 23:16:22,900] DEBUG    ConnServer Conn# 1 boot3rdez4rzn36x.onion [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,900] DEBUG    TorManager Creating new Tor socket to boot3rdez4rzn36x.onion:15441
+[2022-03-17 23:16:22,900] DEBUG    TorManager Waiting for startup...
+[2022-03-17 23:16:22,900] DEBUG    ConnServer Conn# 2 zero.booth.moe [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,904] DEBUG    ConnServer Conn# 3 145.239.95.38 [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,904] DEBUG    ConnServer Conn# 4 149.248.37.249 [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,904] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,904] DEBUG    ConnServer Conn# 6 188.116.183.41 [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,905] DEBUG    ConnServer Conn# 7 23.184.48.134 [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,905] DEBUG    ConnServer Conn# 8 45.77.23.92  [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,905] DEBUG    ConnServer Conn# 9 95.110.227.231 [?] > Connecting... (site: None)
+[2022-03-17 23:16:22,907] WARNING  TorManager Tor controller connect error: ConnectionRefusedError: [Errno 111] Connection refused in TorManager.py line 148 > _socket3.py line 335
+[2022-03-17 23:16:22,907] INFO     TorManager Disabling Tor, because error while accessing Tor proxy at port 127.0.0.1:9050: No connection
+[2022-03-17 23:16:22,908] DEBUG    ConnServer Binding to: 0.0.0.0:28537, (msgpack: 0.6.1), supported crypt: ['tls-rsa']
+[2022-03-17 23:16:22,909] DEBUG    ConnServer Checking sites...
+[2022-03-17 23:16:22,917] DEBUG    BroadcastServer Broadcast using ips ['192.168.201.141'] on port 1544: discoverRequest
+[2022-03-17 23:16:22,917] DEBUG    BroadcastServer Got from ('192.168.201.141', 60242): discoverRequest
+[2022-03-17 23:16:22,918] DEBUG    BroadcastServer Broadcast using ips ['192.168.201.141'] on port 1544: discoverRequest
+[2022-03-17 23:16:22,918] DEBUG    BroadcastServer Got from ('192.168.201.141', 48995): discoverRequest
+[2022-03-17 23:16:23,181] DEBUG    Site:15DoUz..L4KK 29 peers (0 with hashfield) loaded in 0.000s
+[2022-03-17 23:16:23,183] DEBUG    Site:1HeLLo..Tf3D 110 peers (0 with hashfield) loaded in 0.001s
+[2022-03-17 23:16:23,183] DEBUG    Site:1Name2..hM9F 100 peers (0 with hashfield) loaded in 0.000s
+[2022-03-17 23:16:23,185] DEBUG    Site:1TaLkF..jipT 89 peers (0 with hashfield) loaded in 0.001s
+[2022-03-17 23:16:23,185] DEBUG    ConnServer Conn# 8 45.77.23.92  [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:23,186] DEBUG    Site:1Gfey7..fcdp 0 peers (0 with hashfield) loaded in 0.000s
+[2022-03-17 23:16:23,253] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:16:23,253] DEBUG    Site:1Gfey7..fcdp Recent peers 5 of 5 (need: 10)
+[2022-03-17 23:16:23,253] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 198.199.119.87:11558, workers: 1/5
+[2022-03-17 23:16:23,253] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 2t5gqntpkhreiyns.onion:15441, workers: 2/5
+[2022-03-17 23:16:23,254] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: qnlwuiivgjz5oenx.onion:26552, workers: 3/5
+[2022-03-17 23:16:23,254] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: i3ifsltilwj5ujwd.onion:26552, workers: 4/5
+[2022-03-17 23:16:23,254] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: tmmaspiyirh6dbz2.onion:26552, workers: 5/5
+[2022-03-17 23:16:23,254] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://45.77.23.92:15555 (sites: 1, new peers: 5, add: []) in 0.349s
+[2022-03-17 23:16:23,254] DEBUG    ConnServer Conn#10 198.199.119.87 [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:23,393] DEBUG    ConnServer Conn# 4 149.248.37.249 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:23,513] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://149.248.37.249:23141 (sites: 1, new peers: 0, add: []) in 0.609s
+[2022-03-17 23:16:23,680] DEBUG    Db:ContentDb Loaded 0 optional files: 0.00MB, downloaded: 0.00MB in 0.000s
+[2022-03-17 23:16:23,822] DEBUG    ConnServer Conn# 9 95.110.227.231 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:23,847] DEBUG    ConnServer Conn#10 198.199.119.87 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:23,870] DEBUG    ConnServer Conn# 7 23.184.48.134 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:23,936] WARNING  PeerPortchecker checkPortchecker check error: HTTPError: HTTP Error 403: Forbidden in PeerPortchecker.py line 49 > PeerPortchecker.py line 89 > request.py line 222 > request.py line 531 > request.py line 641 > request.py line 569 > request.py line 503 > request.py line 649 in 1.027s
+[2022-03-17 23:16:23,963] DEBUG    ConnServer Conn# 6 188.116.183.41 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:23,997] WARNING  Site:1Gfey7..fcdp content.json: verify sign error: VerifyError: Invalid old-style sign in ContentManager.py line 993
+[2022-03-17 23:16:23,997] DEBUG    WorkerManager:1Gfey7..fcdp 198.199.119.87:11558: Verify failed: content.json, error: Invalid old-style sign, failed peers: 0, workers: 0
+[2022-03-17 23:16:24,025] DEBUG    ConnServer Conn# 3 145.239.95.38 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:24,046] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://95.110.227.231:15441 (sites: 1, new peers: 1, add: []) in 1.141s
+[2022-03-17 23:16:24,063] DEBUG    ConnServer Conn#11 2t5gqntpkhreiyns.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:24,064] DEBUG    ConnServer Conn#11 2t5gqntpkhreiyns.onion [?] > Closing connection: 2t5gqntpkhreiyns.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:24,064] DEBUG    WorkerManager:1Gfey7..fcdp 2t5gqntpkhreiyns.onion:15441: Verify failed: content.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:16:24,064] DEBUG    ConnServer Conn#12 qnlwuiivgjz5oenx.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:24,064] DEBUG    ConnServer Conn#12 qnlwuiivgjz5oenx.onion [?] > Closing connection: qnlwuiivgjz5oenx.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:24,064] DEBUG    WorkerManager:1Gfey7..fcdp qnlwuiivgjz5oenx.onion:26552: Verify failed: content.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:16:24,064] DEBUG    ConnServer Conn#13 i3ifsltilwj5ujwd.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:24,064] DEBUG    ConnServer Conn#13 i3ifsltilwj5ujwd.onion [?] > Closing connection: i3ifsltilwj5ujwd.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:24,065] DEBUG    WorkerManager:1Gfey7..fcdp i3ifsltilwj5ujwd.onion:26552: Verify failed: content.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:16:24,065] DEBUG    ConnServer Conn#14 tmmaspiyirh6dbz2.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:24,065] DEBUG    ConnServer Conn#14 tmmaspiyirh6dbz2.onion [?] > Closing connection: tmmaspiyirh6dbz2.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:24,065] DEBUG    WorkerManager:1Gfey7..fcdp tmmaspiyirh6dbz2.onion:26552: Verify failed: content.json, error: Download failed, failed peers: 4, workers: 0
+[2022-03-17 23:16:24,225] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://188.116.183.41:26552 (sites: 1, new peers: 2, add: []) in 1.321s
+[2022-03-17 23:16:24,303] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://145.239.95.38:15441 (sites: 1, new peers: 1, add: []) in 1.399s
+[2022-03-17 23:16:24,740] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://23.184.48.134:15441 (sites: 1, new peers: 0, add: []) in 1.836s
+[2022-03-17 23:16:25,099] DEBUG    WorkerManager:1Gfey7..fcdp 198.199.119.87:11558: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:25,099] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 4/5
+[2022-03-17 23:16:25,166] DEBUG    WorkerManager:1Gfey7..fcdp 2t5gqntpkhreiyns.onion:15441: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:25,166] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 3/5
+[2022-03-17 23:16:25,166] DEBUG    WorkerManager:1Gfey7..fcdp qnlwuiivgjz5oenx.onion:26552: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:25,166] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 2/5
+[2022-03-17 23:16:25,166] DEBUG    WorkerManager:1Gfey7..fcdp i3ifsltilwj5ujwd.onion:26552: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:25,166] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 1/5
+[2022-03-17 23:16:25,167] DEBUG    WorkerManager:1Gfey7..fcdp tmmaspiyirh6dbz2.onion:26552: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 0/5
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Starting new workers... (tasks: 1)
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Removed worker), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:16:25,168] DEBUG    Site:1Gfey7..fcdp Recent peers 9 of 29 (need: 10)
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 2fpldojdkrjenpr7.onion:15441, workers: 1/5
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 74k2jxig3kbvyhrr.onion:15441, workers: 2/5
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: t2zvf62d7ratyasy.onion:15441, workers: 3/5
+[2022-03-17 23:16:25,168] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 145.255.36.200:38002, workers: 4/5
+[2022-03-17 23:16:25,168] DEBUG    ConnServer Conn#15 2fpldojdkrjenpr7.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:25,169] DEBUG    ConnServer Conn#15 2fpldojdkrjenpr7.onion [?] > Closing connection: 2fpldojdkrjenpr7.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:25,169] DEBUG    WorkerManager:1Gfey7..fcdp 2fpldojdkrjenpr7.onion:15441: Verify failed: content.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:16:25,169] DEBUG    ConnServer Conn#16 74k2jxig3kbvyhrr.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:25,169] DEBUG    ConnServer Conn#16 74k2jxig3kbvyhrr.onion [?] > Closing connection: 74k2jxig3kbvyhrr.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:25,169] DEBUG    WorkerManager:1Gfey7..fcdp 74k2jxig3kbvyhrr.onion:15441: Verify failed: content.json, error: Download failed, failed peers: 6, workers: 0
+[2022-03-17 23:16:25,169] DEBUG    ConnServer Conn#17 t2zvf62d7ratyasy.onion [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:25,169] DEBUG    ConnServer Conn#17 t2zvf62d7ratyasy.onion [?] > Closing connection: t2zvf62d7ratyasy.onion Connect error: Exception: Can't connect to onion addresses, no Tor controller present in ConnectionServer.py line 208 > Connection.py line 124, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:25,169] DEBUG    WorkerManager:1Gfey7..fcdp t2zvf62d7ratyasy.onion:15441: Verify failed: content.json, error: Download failed, failed peers: 7, workers: 0
+[2022-03-17 23:16:25,169] DEBUG    ConnServer Conn#18 145.255.36.200 [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:25,248] INFO     PeerPortchecker Checking port 28537 (ipv4) using checkCanyouseeme result: {'ip': '222.233.128.3', 'opened': True} in 1.311s
+[2022-03-17 23:16:25,248] DEBUG    ConnServer Conn#19 52.202.215.126 [?] > Incoming connection...
+[2022-03-17 23:16:25,248] DEBUG    ConnServer Conn#19 52.202.215.126 [v2] > Closing connection: MessageLoop ended (closed: False), waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:25,349] INFO     ConnServer Server port opened ipv4: True, ipv6: None
+[2022-03-17 23:16:25,350] DEBUG    Site:1TaLkF..jipT content.json loadContent same json file, skipping
+[2022-03-17 23:16:25,351] DEBUG    Site:1TaLkF..jipT Recent peers 0 of 0 (need: 25)
+[2022-03-17 23:16:25,351] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:25,427] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 4
+[2022-03-17 23:16:25,427] DEBUG    Site:1Gfey7..fcdp Recent peers 13 of 35 (need: 10)
+[2022-03-17 23:16:25,427] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 85.29.96.24:14809, workers: 5/5
+[2022-03-17 23:16:25,427] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 67.167.105.99:26794, workers: 6/5
+[2022-03-17 23:16:25,427] DEBUG    ConnServer Conn# 8 45.77.23.92  [v2] > Closing connection: Removing, waiting_requests: 0, sites: 2, buff: 0...
+[2022-03-17 23:16:25,427] DEBUG    Site:1TaLkF..jipT Tracker announce result: zero://45.77.23.92:15555 (sites: 5, new peers: 11, add: ['ipv4']) in 0.073s
+[2022-03-17 23:16:25,472] DEBUG    ConnServer Conn#20 45.77.23.92  [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:16:25,589] DEBUG    ConnServer Conn# 9 95.110.227.231 [v2] > Closing connection: Removing, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:16:25,589] DEBUG    Site:1TaLkF..jipT Tracker announce result: zero://95.110.227.231:15441 (sites: 5, new peers: 7, add: ['ipv4']) in 0.235s
+[2022-03-17 23:16:25,593] DEBUG    ConnServer Conn# 4 149.248.37.249 [v2] > Closing connection: Removing, waiting_requests: 0, sites: 2, buff: 0...
+[2022-03-17 23:16:25,593] DEBUG    Site:1TaLkF..jipT Tracker announce result: zero://149.248.37.249:23141 (sites: 5, new peers: 8, add: ['ipv4']) in 0.240s
+[2022-03-17 23:16:25,623] DEBUG    ConnServer Conn# 6 188.116.183.41 [v2] > Closing connection: Removing, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:16:25,623] DEBUG    Site:1TaLkF..jipT Tracker announce result: zero://188.116.183.41:26552 (sites: 5, new peers: 5, add: ['ipv4']) in 0.270s
+[2022-03-17 23:16:25,633] DEBUG    ConnServer Conn# 3 145.239.95.38 [v2] > Closing connection: Removing, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:16:25,633] DEBUG    Site:1TaLkF..jipT Tracker announce result: zero://145.239.95.38:15441 (sites: 5, new peers: 2, add: ['ipv4']) in 0.280s
+[2022-03-17 23:16:25,729] DEBUG    ConnServer Conn#20 45.77.23.92  [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:25,833] DEBUG    ConnServer Conn# 7 23.184.48.134 [v2] > Closing connection: Removing, waiting_requests: 0, sites: 2, buff: 0...
+[2022-03-17 23:16:25,833] DEBUG    Site:1TaLkF..jipT Tracker announce result: zero://23.184.48.134:15441 (sites: 5, new peers: 4, add: ['ipv4']) in 0.479s
+[2022-03-17 23:16:26,271] DEBUG    WorkerManager:1Gfey7..fcdp 2fpldojdkrjenpr7.onion:15441: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:26,271] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 5/5
+[2022-03-17 23:16:26,271] DEBUG    WorkerManager:1Gfey7..fcdp 74k2jxig3kbvyhrr.onion:15441: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:26,271] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 4/5
+[2022-03-17 23:16:26,273] DEBUG    WorkerManager:1Gfey7..fcdp t2zvf62d7ratyasy.onion:15441: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:26,273] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 3/5
+[2022-03-17 23:16:26,289] DEBUG    ConnServer Conn#18 145.255.36.200 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:26,337] DEBUG    ConnServer Conn#21 85.29.96.24  [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:26,338] DEBUG    ConnServer Conn#22 67.167.105.99 [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:26,568] DEBUG    WorkerManager:1Gfey7..fcdp 145.255.36.200:38002: Verify failed: content.json, error: Download failed, failed peers: 8, workers: 2
+[2022-03-17 23:16:27,059] DEBUG    ConnServer Conn#22 67.167.105.99 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:27,237] WARNING  Site:1Gfey7..fcdp content.json: verify sign error: VerifyError: Invalid old-style sign in ContentManager.py line 993
+[2022-03-17 23:16:27,237] DEBUG    WorkerManager:1Gfey7..fcdp 67.167.105.99:26794: Verify failed: content.json, error: Invalid old-style sign, failed peers: 9, workers: 1
+[2022-03-17 23:16:27,352] DEBUG    Site:1Name2..hM9F content.json loadContent same json file, skipping
+[2022-03-17 23:16:27,352] DEBUG    Site:1Name2..hM9F Recent peers 31 of 34 (need: 25)
+[2022-03-17 23:16:27,352] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:27,389] WARNING  Site:1Gfey7..fcdp Tracker http://open.trackerlist.xyz:80/announce announce failed: AnnounceError: No response after 4s in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 132 in mode start
+[2022-03-17 23:16:27,435] WARNING  Site:1TaLkF..jipT Tracker http://open.trackerlist.xyz:80/announce announce failed: AnnounceError: No response after 2s in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 132 in mode startup
+[2022-03-17 23:16:27,533] DEBUG    ConnServer Conn#21 85.29.96.24  [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:27,631] DEBUG    ConnServer Conn#23 185.97.32.39 [?] > Connecting... (site: Site 1Name2..hM9F)
+[2022-03-17 23:16:27,669] DEBUG    WorkerManager:1Gfey7..fcdp 145.255.36.200:38002: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:27,669] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 2/5
+[2022-03-17 23:16:27,678] DEBUG    Db:ContentDb Commited in 0.001s (reason: Interval)
+[2022-03-17 23:16:27,830] DEBUG    WorkerManager:1Gfey7..fcdp 85.29.96.24:14809: Verify failed: content.json, error: Download failed, failed peers: 10, workers: 0
+[2022-03-17 23:16:27,887] WARNING  Site:1Name2..hM9F Tracker http://open.trackerlist.xyz:80/announce announce failed: AnnounceError: No response after 1s in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 132 in mode startup
+[2022-03-17 23:16:28,027] INFO     Ui.UiServer Added 127.0.0.1:43110 as allowed host
+[2022-03-17 23:16:28,027] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET / HTTP/1.1" 301 201 0.001281
+[2022-03-17 23:16:28,165] DEBUG    Site:1HeLLo..Tf3D Site requested, but not announced recently (last 27459736min ago). Updating...
+[2022-03-17 23:16:28,165] DEBUG    UserManager Added 1 users in 0.000s
+[2022-03-17 23:16:28,166] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D HTTP/1.1" 200 4912 0.002831
+[2022-03-17 23:16:28,166] DEBUG    Site:1HeLLo..Tf3D content.json loadContent same json file, skipping
+[2022-03-17 23:16:28,166] DEBUG    BroadcastServer Sending discover request (force: True)
+[2022-03-17 23:16:28,166] DEBUG    Site:1HeLLo..Tf3D Force reannounce in mode start
+[2022-03-17 23:16:28,168] DEBUG    ConnServer Conn#24 145.239.95.38 [?] > Connecting... (site: None)
+[2022-03-17 23:16:28,168] DEBUG    ConnServer Conn#25 149.248.37.249 [?] > Connecting... (site: None)
+[2022-03-17 23:16:28,171] DEBUG    ConnServer Conn#26 188.116.183.41 [?] > Connecting... (site: None)
+[2022-03-17 23:16:28,171] DEBUG    ConnServer Conn#27 23.184.48.134 [?] > Connecting... (site: None)
+[2022-03-17 23:16:28,172] DEBUG    ConnServer Conn#28 95.110.227.231 [?] > Connecting... (site: None)
+[2022-03-17 23:16:28,175] DEBUG    BroadcastServer Broadcast using ips ['192.168.201.141'] on port 1544: discoverRequest
+[2022-03-17 23:16:28,175] DEBUG    Site:1HeLLo..Tf3D Recent peers 31 of 36 (need: 25)
+[2022-03-17 23:16:28,175] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:28,176] DEBUG    BroadcastServer Got from ('192.168.201.141', 34182): discoverRequest
+[2022-03-17 23:16:28,239] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://45.77.23.92:15555 (sites: 1, new peers: 0, add: ['ipv4']) in 0.067s
+[2022-03-17 23:16:28,251] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /uimedia/img/logo-white.png HTTP/1.1" 200 1649 0.000606
+[2022-03-17 23:16:28,264] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /uimedia/all.css?rev=4206 HTTP/1.1" 200 44917 0.000711
+[2022-03-17 23:16:28,330] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/?wrapper_nonce=1919a54a3cac617fb0c10576f12a893814a38ba66122b394766aede7f4c4ab51 HTTP/1.1" 200 1650 0.000893
+[2022-03-17 23:16:28,338] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /uimedia/all.js?rev=4206&lang=en HTTP/1.1" 200 214850 0.000835
+[2022-03-17 23:16:28,339] DEBUG    WorkerManager:1Gfey7..fcdp 67.167.105.99:26794: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:28,339] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 1/5
+[2022-03-17 23:16:28,415] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/js/all.js?lang=en&site_modified=1604369175 HTTP/1.1" 200 301759 0.000652
+[2022-03-17 23:16:28,419] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/css/all.css?site_modified=1604369175 HTTP/1.1" 200 238123 0.000554
+[2022-03-17 23:16:28,453] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /favicon.ico HTTP/1.1" 200 1430 0.000309
+[2022-03-17 23:16:28,551] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 1
+[2022-03-17 23:16:28,551] DEBUG    Site:1Gfey7..fcdp Recent peers 14 of 57 (need: 10)
+[2022-03-17 23:16:28,551] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 70.68.9.81:22444, workers: 2/5
+[2022-03-17 23:16:28,551] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 95.25.225.165:25787, workers: 3/5
+[2022-03-17 23:16:28,551] DEBUG    ConnServer Conn#29 70.68.9.81   [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:28,561] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/img/logo.svg HTTP/1.1" 200 1303 0.000383
+[2022-03-17 23:16:28,588] DEBUG    SiteManager Loading sites...
+[2022-03-17 23:16:28,589] DEBUG    ContentFilterStorage Loaded 0 mutes, 0 blocked sites from 0 includes in 0.000s
+[2022-03-17 23:16:28,589] DEBUG    SiteManager Updated merger sites in 0.000s
+[2022-03-17 23:16:28,641] DEBUG    Ui.UiServer 127.0.0.1 - - [2022-03-17 23:16:28] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/img/loading-circle.gif HTTP/1.1" 200 2643 0.000377
+[2022-03-17 23:16:28,658] DEBUG    Site:1TaLkF..jipT No database, waiting for dbschema.json...
+[2022-03-17 23:16:28,659] DEBUG    Db:ZeroTalk Connected to /home/choi/Zeronet/data/1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/data/users/zerotalk.db in 0.000s (opened: 3, sqlite version: 2.6.0)...
+[2022-03-17 23:16:28,659] DEBUG    Db:ZeroTalk Db check done in 0.001s, changed tables: []
+[2022-03-17 23:16:28,753] DEBUG    ConnServer Conn#23 185.97.32.39 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:28,791] DEBUG    ConnServer Conn#25 149.248.37.249 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:28,912] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://149.248.37.249:23141 (sites: 1, new peers: 0, add: ['ipv4']) in 0.743s
+[2022-03-17 23:16:28,932] DEBUG    WorkerManager:1Gfey7..fcdp 85.29.96.24:14809: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:28,932] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 2/5
+[2022-03-17 23:16:29,115] DEBUG    ConnServer Conn#28 95.110.227.231 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:29,222] DEBUG    ConnServer Conn#27 23.184.48.134 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:29,330] DEBUG    ConnServer Conn#24 145.239.95.38 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:29,352] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://95.110.227.231:15441 (sites: 1, new peers: 0, add: ['ipv4']) in 1.180s
+[2022-03-17 23:16:29,408] DEBUG    ConnServer Conn#26 188.116.183.41 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:29,459] DEBUG    ConnServer Conn#30 95.25.225.165 [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:29,477] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://23.184.48.134:15441 (sites: 1, new peers: 0, add: ['ipv4']) in 1.306s
+[2022-03-17 23:16:29,620] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://145.239.95.38:15441 (sites: 1, new peers: 0, add: ['ipv4']) in 1.452s
+[2022-03-17 23:16:29,686] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://188.116.183.41:26552 (sites: 1, new peers: 0, add: ['ipv4']) in 1.515s
+[2022-03-17 23:16:30,713] WARNING  Site:1HeLLo..Tf3D Tracker http://open.trackerlist.xyz:80/announce announce failed: AnnounceError: No response after 3s in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 132 in mode start
+[2022-03-17 23:16:30,859] DEBUG    ConnServer Conn#30 95.25.225.165 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:31,207] WARNING  Site:1Gfey7..fcdp content.json: verify sign error: VerifyError: Invalid old-style sign in ContentManager.py line 993
+[2022-03-17 23:16:31,207] DEBUG    WorkerManager:1Gfey7..fcdp 95.25.225.165:25787: Verify failed: content.json, error: Invalid old-style sign, failed peers: 11, workers: 1
+[2022-03-17 23:16:31,909] WARNING  Site:1Gfey7..fcdp Tracker udp://104.238.198.186:8000 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:16:31,944] WARNING  Site:1Gfey7..fcdp Tracker udp://amigacity.xyz:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:16:31,979] WARNING  Site:1Gfey7..fcdp Tracker udp://tracker.coppersurfer.tk:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:16:32,310] DEBUG    WorkerManager:1Gfey7..fcdp 95.25.225.165:25787: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:32,310] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 1/5
+[2022-03-17 23:16:33,775] DEBUG    User:1JXkgkLApXDSjXdL3ibdQ7wwW9fnq2xj95 Saved in 0.002s
+[2022-03-17 23:16:34,353] DEBUG    Site:1HeLLo..Tf3D content.json loadContent same json file, skipping
+[2022-03-17 23:16:34,354] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:34,356] WARNING  Site:1TaLkF..jipT Tracker udp://tracker.coppersurfer.tk:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:34,356] WARNING  Site:1TaLkF..jipT Tracker udp://amigacity.xyz:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:34,356] WARNING  Site:1TaLkF..jipT Tracker udp://104.238.198.186:8000 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:35,351] DEBUG    Site:1TaLkF..jipT Queried listModifications from: [<Peer:149.248.37.249>, <Peer:23.184.48.134>, <Peer:198.199.119.87>, <Peer:45.77.23.92 >] in 10.000s since 1647490381
+[2022-03-17 23:16:35,453] DEBUG    Site:1TaLkF..jipT content.json loadContent same json file, skipping
+[2022-03-17 23:16:35,453] DEBUG    Site:1TaLkF..jipT Bad files: {'data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json': 2, 'data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json': 2, 'data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json': 2, 'data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json': 2}
+[2022-03-17 23:16:35,454] DEBUG    Site:1TaLkF..jipT Retry 4 bad files
+[2022-03-17 23:16:35,454] DEBUG    Site:1TaLkF..jipT New downloadFile pool: len: 4, only if bad: True
+[2022-03-17 23:16:35,454] DEBUG    Site:1TaLkF..jipT Ended downloadFile pool len: 4, skipped: 0
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Added new task), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 45.77.23.92:15555, workers: 1/5
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 198.199.119.87:11558, workers: 2/5
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 67.167.105.99:26794, workers: 3/5
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 145.255.36.200:38002, workers: 4/5
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 85.29.96.24:14809, workers: 5/5
+[2022-03-17 23:16:35,454] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 159.65.50.3:26117, workers: 6/5
+[2022-03-17 23:16:35,518] DEBUG    WorkerManager:1TaLkF..jipT 45.77.23.92:15555: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:16:35,603] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:16:35,627] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:16:35,734] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:16:35,854] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:16:35,861] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:36,355] WARNING  Site:1Name2..hM9F Tracker udp://tracker.coppersurfer.tk:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:36,355] WARNING  Site:1Name2..hM9F Tracker udp://amigacity.xyz:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:36,355] WARNING  Site:1Name2..hM9F Tracker udp://104.238.198.186:8000 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:36,582] DEBUG    WorkerManager:1TaLkF..jipT 45.77.23.92:15555: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:16:36,753] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:16:36,799] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:16:37,014] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:16:37,152] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:16:37,175] WARNING  Site:1HeLLo..Tf3D Tracker udp://104.238.198.186:8000 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:16:37,207] WARNING  Site:1HeLLo..Tf3D Tracker udp://amigacity.xyz:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:16:37,207] WARNING  Site:1HeLLo..Tf3D Tracker udp://tracker.coppersurfer.tk:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:16:37,352] DEBUG    Site:1Name2..hM9F Queried listModifications from: [<Peer:198.199.119.87>, <Peer:145.255.36.200>, <Peer:67.167.105.99>, <Peer:185.97.32.39>] in 10.000s since 1646387650
+[2022-03-17 23:16:37,453] DEBUG    Site:1Name2..hM9F content.json loadContent same json file, skipping
+[2022-03-17 23:16:37,646] DEBUG    WorkerManager:1TaLkF..jipT 45.77.23.92:15555: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:16:37,687] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 4, started: 4, bad files: 4, total started: 4
+[2022-03-17 23:16:37,895] DEBUG    WorkerManager:1Gfey7..fcdp Tasks: 1, started: 1, bad files: 1, total started: 1
+[2022-03-17 23:16:37,900] DEBUG    ConnServer Conn# 2 zero.booth.moe [?] > Closing connection: [Cleanup] Connect timeout: 15.000s, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:37,901] DEBUG    ConnServer Conn# 5 159.65.50.3  [?] > Closing connection: [Cleanup] Connect timeout: 14.996s, waiting_requests: 5, sites: 3, buff: 0...
+[2022-03-17 23:16:37,901] WARNING  Site:1TaLkF..jipT Tracker zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode startup
+[2022-03-17 23:16:37,901] WARNING  Site:1HeLLo..Tf3D Tracker zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode start
+[2022-03-17 23:16:37,902] WARNING  Site:1Gfey7..fcdp Tracker zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode start
+[2022-03-17 23:16:37,902] WARNING  Site:1TaLkF..jipT Tracker zero://159.65.50.3:26117 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode startup
+[2022-03-17 23:16:37,903] WARNING  Site:1HeLLo..Tf3D Tracker zero://159.65.50.3:26117 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode start
+[2022-03-17 23:16:37,903] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:16:37,973] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:16:38,176] DEBUG    Site:1HeLLo..Tf3D Queried listModifications from: [<Peer:198.199.119.87>, <Peer:45.77.23.92 >, <Peer:145.255.36.200>, <Peer:85.29.96.24 >] in 10.001s since 1604282775
+[2022-03-17 23:16:38,278] DEBUG    Site:1HeLLo..Tf3D content.json loadContent same json file, skipping
+[2022-03-17 23:16:38,295] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 4, workers: 0
+[2022-03-17 23:16:38,450] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 4, workers: 0
+[2022-03-17 23:16:38,710] DEBUG    WorkerManager:1TaLkF..jipT 45.77.23.92:15555: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:16:38,710] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 5/5
+[2022-03-17 23:16:38,810] WARNING  Site:1Gfey7..fcdp Tracker zero://159.65.50.3:26117 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode start
+[2022-03-17 23:16:38,904] DEBUG    ConnServer Conn#31 159.65.50.3  [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:16:39,769] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 4, workers: 0
+[2022-03-17 23:16:39,769] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 4/5
+[2022-03-17 23:16:39,957] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 2, workers: 2
+[2022-03-17 23:16:39,958] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 3/5
+[2022-03-17 23:16:40,054] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 3, workers: 1
+[2022-03-17 23:16:40,054] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 2/5
+[2022-03-17 23:16:40,485] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 4, workers: 1
+[2022-03-17 23:16:40,485] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 1/5
+[2022-03-17 23:16:41,355] DEBUG    Site:15DoUz..L4KK content.json loadContent same json file, skipping
+[2022-03-17 23:16:41,355] DEBUG    Site:15DoUz..L4KK Recent peers 3 of 13 (need: 25)
+[2022-03-17 23:16:41,356] DEBUG    ConnServer Conn#31 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:41,356] DEBUG    ConnServer Conn#32 176.101.222.131 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2022-03-17 23:16:41,356] DEBUG    ConnServer Conn#33 176.223.142.3 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2022-03-17 23:16:41,356] DEBUG    ConnServer Conn#34 zero.booth.moe [?] > Connecting... (site: None)
+[2022-03-17 23:16:42,423] DEBUG    ConnServer Conn#33 176.223.142.3 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:42,497] DEBUG    ConnServer Conn#32 176.101.222.131 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:42,689] DEBUG    ConnServer Conn#31 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:42,780] DEBUG    ConnServer Conn#31 159.65.50.3  [?] > Wait for handshake before send request
+[2022-03-17 23:16:42,914] DEBUG    Site:1Gfey7..fcdp Announced in mode start to 7/15 trackers in 20.014s, errors: ['zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443', 'udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://open.trackerlist.xyz:80/announce', 'zero://159.65.50.3:26117'], slow: ['5.65s http://open.acgnxtracker.com:80/announce', '1.40s zero://145.239.95.38:15441', '1.32s zero://188.116.183.41:26552', '1.84s zero://23.184.48.134:15441', '1.14s zero://95.110.227.231:15441']
+[2022-03-17 23:16:43,212] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 1
+[2022-03-17 23:16:43,492] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 1
+[2022-03-17 23:16:43,492] DEBUG    WorkerManager:1Gfey7..fcdp Added worker: 176.101.222.131:15441, workers: 2/5
+[2022-03-17 23:16:43,492] DEBUG    Site:1Gfey7..fcdp Pex result: from 2 peers got 3 new peers.
+[2022-03-17 23:16:44,354] DEBUG    Site:1HeLLo..Tf3D Queried listModifications from: [<Peer:198.199.119.87>, <Peer:45.77.23.92 >, <Peer:145.255.36.200>, <Peer:85.29.96.24 >] in 10.000s since 1604282775
+[2022-03-17 23:16:44,457] DEBUG    Site:1HeLLo..Tf3D content.json loadContent same json file, skipping
+[2022-03-17 23:16:44,685] DEBUG    WorkerManager:1Gfey7..fcdp 176.101.222.131:15441: Verify failed: content.json, error: Download failed, failed peers: 12, workers: 1
+[2022-03-17 23:16:45,362] DEBUG    Site:1TaLkF..jipT Announced in mode startup to 7/14 trackers in 20.011s, errors: ['zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443', 'udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://open.trackerlist.xyz:80/announce', 'zero://159.65.50.3:26117'], slow: []
+[2022-03-17 23:16:45,787] DEBUG    WorkerManager:1Gfey7..fcdp 176.101.222.131:15441: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:45,787] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 1/5
+[2022-03-17 23:16:45,938] DEBUG    Site:1TaLkF..jipT Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:16:46,056] WARNING  Site:1Gfey7..fcdp Tracker http://tracker01.loveapp.com:6789/announce announce failed: URLError: <urlopen error [Errno 111] Connection refused> in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 126 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 91 > request.py line 222 > request.py line 525 > request.py line 543 > request.py line 503 > request.py line 1345 > request.py line 1319 in mode start
+[2022-03-17 23:16:46,463] WARNING  Site:1TaLkF..jipT Tracker http://tracker01.loveapp.com:6789/announce announce failed: URLError: <urlopen error [Errno 111] Connection refused> in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 126 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 91 > request.py line 222 > request.py line 525 > request.py line 543 > request.py line 503 > request.py line 1345 > request.py line 1319 in mode startup
+[2022-03-17 23:16:47,364] DEBUG    Site:1Name2..hM9F Announced in mode startup to 1/14 trackers in 20.012s, errors: ['udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://open.trackerlist.xyz:80/announce'], slow: []
+[2022-03-17 23:16:47,392] WARNING  Site:15DoUz..L4KK Tracker http://open.trackerlist.xyz:80/announce announce failed: AnnounceError: No response after 6s in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 132 in mode startup
+[2022-03-17 23:16:47,686] DEBUG    Site:1Name2..hM9F Pex result: from 2 peers got 3 new peers.
+[2022-03-17 23:16:48,178] DEBUG    Site:1HeLLo..Tf3D Announced in mode start to 7/14 trackers in 20.011s, errors: ['zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443', 'udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://open.trackerlist.xyz:80/announce', 'zero://159.65.50.3:26117'], slow: ['1.45s zero://145.239.95.38:15441', '1.52s zero://188.116.183.41:26552', '1.31s zero://23.184.48.134:15441', '1.18s zero://95.110.227.231:15441']
+[2022-03-17 23:16:48,356] DEBUG    Site:1Gfey7..fcdp Content.json not exist: /home/choi/Zeronet/data/1Gfey7wVXXg1rxk751TBTxLJwhddDNfcdp/content.json
+[2022-03-17 23:16:48,356] DEBUG    Site:1Gfey7..fcdp Recent peers 14 of 57 (need: 25)
+[2022-03-17 23:16:48,446] DEBUG    Site:1HeLLo..Tf3D Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:16:48,494] WARNING  Site:1Name2..hM9F Tracker http://tracker01.loveapp.com:6789/announce announce failed: URLError: <urlopen error [Errno 111] Connection refused> in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 126 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 91 > request.py line 222 > request.py line 525 > request.py line 543 > request.py line 503 > request.py line 1345 > request.py line 1319 in mode startup
+[2022-03-17 23:16:48,635] DEBUG    ConnServer Conn#29 70.68.9.81   [?] > Wait for handshake before send request
+[2022-03-17 23:16:49,234] WARNING  Site:1HeLLo..Tf3D Tracker http://tracker01.loveapp.com:6789/announce announce failed: URLError: <urlopen error [Errno 111] Connection refused> in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 126 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 91 > request.py line 222 > request.py line 525 > request.py line 543 > request.py line 503 > request.py line 1345 > request.py line 1319 in mode start
+[2022-03-17 23:16:49,593] DEBUG    ConnServer Conn#29 70.68.9.81   [?] > Closing connection: 70.68.9.81 Connect error: ConnectionRefusedError: [Errno 111] Connection refused in ConnectionServer.py line 208 > Connection.py line 149 > _socket3.py line 335, waiting_requests: 1, sites: 3, buff: 0...
+[2022-03-17 23:16:49,593] DEBUG    WorkerManager:1Gfey7..fcdp 70.68.9.81:22444: Verify failed: content.json, error: Download failed, failed peers: 13, workers: 0
+[2022-03-17 23:16:50,360] WARNING  Site:15DoUz..L4KK Tracker udp://104.238.198.186:8000 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:50,394] WARNING  Site:15DoUz..L4KK Tracker udp://tracker.coppersurfer.tk:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:50,397] WARNING  Site:15DoUz..L4KK Tracker udp://amigacity.xyz:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode startup
+[2022-03-17 23:16:50,595] DEBUG    ConnServer Conn#35 70.68.9.81   [?] > Connecting... (site: Site 1Gfey7..fcdp)
+[2022-03-17 23:16:50,695] DEBUG    WorkerManager:1Gfey7..fcdp 70.68.9.81:22444: No task found, stopping (downloaded files: 0, failed: 1)
+[2022-03-17 23:16:50,696] DEBUG    WorkerManager:1Gfey7..fcdp Removed worker, workers: 0/5
+[2022-03-17 23:16:50,696] DEBUG    WorkerManager:1Gfey7..fcdp Starting new workers... (tasks: 1)
+[2022-03-17 23:16:50,696] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Removed worker), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:16:51,357] DEBUG    Site:15DoUz..L4KK Queried listModifications from: [<Peer:176.223.142.3>, <Peer:176.101.222.131>] in 10.001s since 1504233946
+[2022-03-17 23:16:51,458] DEBUG    Site:15DoUz..L4KK content.json loadContent same json file, skipping
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 4, started: 4, bad files: 4, total started: 4
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 5, asked: 0)
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 176.223.142.3:33455, workers: 2/5
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 176.101.222.131:15441, workers: 3/5
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 149.248.37.249:23141, workers: 4/5
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 23.184.48.134:15441, workers: 5/5
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 5, asked: 0)
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 5, asked: 0)
+[2022-03-17 23:16:52,689] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, (workers: 1, optional_hash_id: None, peers: 0, failed: 5, asked: 0)
+[2022-03-17 23:16:52,809] DEBUG    WorkerManager:1TaLkF..jipT 149.248.37.249:23141: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:16:52,897] DEBUG    WorkerManager:1Gfey7..fcdp Tasks: 1, started: 1, bad files: 1, total started: 1
+[2022-03-17 23:16:52,897] DEBUG    WorkerManager:1Gfey7..fcdp Slow task: content.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 14, asked: 0)
+[2022-03-17 23:16:52,897] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Task checker), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:16:52,897] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Task checker (need more workers)), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:16:52,903] DEBUG    ConnServer Conn# 1 boot3rdez4rzn36x.onion [?] > Closing connection: [Cleanup] Connect timeout: 30.002s, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:52,903] DEBUG    ConnServer Conn#24 145.239.95.38 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.283s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:16:52,903] DEBUG    ConnServer Conn#26 188.116.183.41 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.217s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:16:52,903] DEBUG    ConnServer Conn#27 23.184.48.134 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.426s, waiting_requests: 0, sites: 3, buff: 0...
+[2022-03-17 23:16:52,903] DEBUG    ConnServer Conn#28 95.110.227.231 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.552s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:16:52,904] DEBUG    ConnServer Conn#31 159.65.50.3  [?] > Closing connection: [Cleanup] Connect timeout: 13.999s, waiting_requests: 3, sites: 5, buff: 0...
+[2022-03-17 23:16:52,904] DEBUG    ConnServer Conn#34 zero.booth.moe [?] > Closing connection: [Cleanup] Connect timeout: 11.547s, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:16:52,904] WARNING  Site:15DoUz..L4KK Tracker zero://159.65.50.3:26117 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode startup
+[2022-03-17 23:16:52,905] WARNING  Site:15DoUz..L4KK Tracker zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode startup
+[2022-03-17 23:16:52,955] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:16:52,973] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:16:53,602] DEBUG    ConnServer Conn#36 23.184.48.134 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:16:53,904] DEBUG    ConnServer Conn#37 159.65.50.3  [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2022-03-17 23:16:53,930] DEBUG    WorkerManager:1TaLkF..jipT 149.248.37.249:23141: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 6, workers: 0
+[2022-03-17 23:16:54,223] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 6, workers: 0
+[2022-03-17 23:16:54,256] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 6, workers: 0
+[2022-03-17 23:16:54,631] DEBUG    ConnServer Conn#36 23.184.48.134 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:54,889] DEBUG    WorkerManager:1TaLkF..jipT 23.184.48.134:15441: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 5, workers: 1
+[2022-03-17 23:16:55,051] DEBUG    WorkerManager:1TaLkF..jipT 149.248.37.249:23141: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 7, workers: 0
+[2022-03-17 23:16:55,358] DEBUG    ConnServer Checksites done in 32.449s
+[2022-03-17 23:16:55,490] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 7, workers: 0
+[2022-03-17 23:16:55,539] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 7, workers: 0
+[2022-03-17 23:16:56,148] DEBUG    WorkerManager:1TaLkF..jipT 23.184.48.134:15441: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 8, workers: 0
+[2022-03-17 23:16:57,078] DEBUG    WorkerManager:1TaLkF..jipT 149.248.37.249:23141: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 6, workers: 1
+[2022-03-17 23:16:57,078] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 4/5
+[2022-03-17 23:16:57,406] DEBUG    WorkerManager:1TaLkF..jipT 23.184.48.134:15441: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 8, workers: 0
+[2022-03-17 23:16:57,664] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 7, workers: 2
+[2022-03-17 23:16:57,664] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 3/5
+[2022-03-17 23:16:57,730] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 8, workers: 1
+[2022-03-17 23:16:57,731] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 2/5
+[2022-03-17 23:16:58,357] DEBUG    Site:1Gfey7..fcdp Queried listModifications from: [<Peer:198.199.119.87>, <Peer:145.255.36.200>, <Peer:85.29.96.24 >, <Peer:67.167.105.99>] in 10.001s since 0
+[2022-03-17 23:16:58,457] DEBUG    Site:1Gfey7..fcdp Content.json not exist: /home/choi/Zeronet/data/1Gfey7wVXXg1rxk751TBTxLJwhddDNfcdp/content.json
+[2022-03-17 23:16:58,457] DEBUG    Site:1Gfey7..fcdp Bad files: {'content.json': 17}
+[2022-03-17 23:16:58,458] DEBUG    Site:1Gfey7..fcdp Retry 1 bad files
+[2022-03-17 23:16:58,458] DEBUG    Site:1Gfey7..fcdp New downloadContent pool: len: 1, only if bad: True
+[2022-03-17 23:16:58,458] DEBUG    Site:1Gfey7..fcdp Ended downloadContent pool len: 1, skipped: 0
+[2022-03-17 23:16:58,458] DEBUG    Site:1Gfey7..fcdp Need content.json first
+[2022-03-17 23:16:58,458] DEBUG    ConnServer Conn#38 zero.booth.moe [?] > Connecting... (site: None)
+[2022-03-17 23:16:58,459] DEBUG    ConnServer Conn#39 145.239.95.38 [?] > Connecting... (site: None)
+[2022-03-17 23:16:58,460] DEBUG    ConnServer Conn#40 188.116.183.41 [?] > Connecting... (site: None)
+[2022-03-17 23:16:58,461] DEBUG    ConnServer Conn#41 95.110.227.231 [?] > Connecting... (site: None)
+[2022-03-17 23:16:58,526] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://45.77.23.92:15555 (sites: 1, new peers: 0, add: ['ipv4']) in 0.065s
+[2022-03-17 23:16:58,581] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://149.248.37.249:23141 (sites: 1, new peers: 0, add: ['ipv4']) in 0.121s
+[2022-03-17 23:16:58,664] DEBUG    WorkerManager:1TaLkF..jipT 23.184.48.134:15441: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 8, workers: 0
+[2022-03-17 23:16:58,664] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 1/5
+[2022-03-17 23:16:58,922] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://23.184.48.134:15441 (sites: 1, new peers: 0, add: ['ipv4']) in 0.461s
+[2022-03-17 23:16:59,417] DEBUG    ConnServer Conn#41 95.110.227.231 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:59,524] DEBUG    ConnServer Conn#40 188.116.183.41 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:59,537] DEBUG    ConnServer Conn#39 145.239.95.38 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:16:59,654] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://95.110.227.231:15441 (sites: 1, new peers: 0, add: ['ipv4']) in 1.193s
+[2022-03-17 23:16:59,791] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://188.116.183.41:26552 (sites: 1, new peers: 0, add: ['ipv4']) in 1.331s
+[2022-03-17 23:16:59,806] DEBUG    Site:1Gfey7..fcdp Tracker announce result: zero://145.239.95.38:15441 (sites: 1, new peers: 0, add: ['ipv4']) in 1.347s
+[2022-03-17 23:17:00,943] WARNING  Site:1Gfey7..fcdp Tracker http://open.trackerlist.xyz:80/announce announce failed: AnnounceError: No response after 2s in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 132 in mode start
+[2022-03-17 23:17:01,369] DEBUG    Site:15DoUz..L4KK Announced in mode startup to 1/14 trackers in 20.013s, errors: ['zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443', 'udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://open.trackerlist.xyz:80/announce', 'zero://159.65.50.3:26117'], slow: ['11.98s http://open.acgnxtracker.com:80/announce']
+[2022-03-17 23:17:04,439] WARNING  Site:15DoUz..L4KK Tracker http://tracker01.loveapp.com:6789/announce announce failed: URLError: <urlopen error [Errno 111] Connection refused> in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 126 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 91 > request.py line 222 > request.py line 525 > request.py line 543 > request.py line 503 > request.py line 1345 > request.py line 1319 in mode startup
+[2022-03-17 23:17:07,463] WARNING  Site:1Gfey7..fcdp Tracker udp://104.238.198.186:8000 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:17:07,498] WARNING  Site:1Gfey7..fcdp Tracker udp://tracker.coppersurfer.tk:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:17:07,532] WARNING  Site:1Gfey7..fcdp Tracker udp://amigacity.xyz:6969 announce failed: AnnounceError: Could not connect in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 61 in mode start
+[2022-03-17 23:17:07,690] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 4, started: 4, bad files: 4, total started: 4
+[2022-03-17 23:17:07,690] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:07,690] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, (workers: 1, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:07,691] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker (need more workers)), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:07,897] DEBUG    WorkerManager:1Gfey7..fcdp Tasks: 1, started: 1, bad files: 1, total started: 1
+[2022-03-17 23:17:07,897] DEBUG    WorkerManager:1Gfey7..fcdp Slow task: content.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 14, asked: 0)
+[2022-03-17 23:17:07,898] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Task checker), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:07,898] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Task checker (need more workers)), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:07,904] DEBUG    ConnServer Conn#35 70.68.9.81   [?] > Closing connection: [Cleanup] Connect timeout: 17.309s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:17:07,904] DEBUG    ConnServer Conn#37 159.65.50.3  [?] > Closing connection: [Cleanup] Connect timeout: 14.000s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:17:07,905] WARNING  Site:1TaLkF..jipT Tracker zero://159.65.50.3:26117 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode more
+[2022-03-17 23:17:07,905] WARNING  Site:1Gfey7..fcdp Tracker zero://159.65.50.3:26117 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode start
+[2022-03-17 23:17:07,905] DEBUG    TrackerStorage Tracker zero://159.65.50.3:26117 looks down, removing.
+[2022-03-17 23:17:07,905] DEBUG    Site:1TaLkF..jipT Tracker failed, skipping to next one...
+[2022-03-17 23:17:08,337] DEBUG    Site:1TaLkF..jipT Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:17:08,555] DEBUG    Site:15DoUz..L4KK Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:17:09,162] DEBUG    ConnServer Conn#31 159.65.50.3  [?] > Crypt connection error, adding 159.65.50.3:26117 as broken ssl. timeout: The handshake operation timed out in Connection.py line 160 > CryptConnection.py line 85 > _ssl3.py line 66 > _ssl3.py line 267 > _ssl3.py line 263 > _ssl3.py line 592 > _hub_primitives.py line 284 > _hub_primitives.py line 289 > _hub_primitives.py line 280 > _hub_primitives.py line 281 > _hub_primitives.py line 46 > _hub_primitives.py line 46 > _hub_primitives.py line 55 > _waiter.py line 151 > _greenlet_primitives.py line 60 > _greenlet_primitives.py line 60 > _greenlet_primitives.py line 64 > __greenlet_primitives.pxd line 35
+[2022-03-17 23:17:11,163] DEBUG    ConnServer Conn#42 159.65.50.3  [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:17:18,471] DEBUG    Site:1Gfey7..fcdp Announced in mode start to 7/14 trackers in 20.013s, errors: ['udp://tracker.coppersurfer.tk:6969', 'udp://amigacity.xyz:6969', 'udp://104.238.198.186:8000', 'http://open.trackerlist.xyz:80/announce', 'zero://159.65.50.3:26117'], slow: ['8.71s http://open.acgnxtracker.com:80/announce', '1.35s zero://145.239.95.38:15441', '1.33s zero://188.116.183.41:26552', '1.19s zero://95.110.227.231:15441']
+[2022-03-17 23:17:18,645] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:18,989] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (More peers found), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:18,989] DEBUG    Site:1Gfey7..fcdp Pex result: from 2 peers got 4 new peers.
+[2022-03-17 23:17:19,525] DEBUG    ConnServer Conn#38 zero.booth.moe [?] > Closing connection: zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d Connect error: ConnectionRefusedError: [Errno 111] Connection refused in ConnectionServer.py line 208 > Connection.py line 149 > _socket3.py line 335, waiting_requests: 0, sites: 0, buff: 0...
+[2022-03-17 23:17:19,525] WARNING  Site:1Gfey7..fcdp Tracker zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 announce failed: AnnounceError: Invalid response: None in SiteAnnouncer.py line 198 > AnnounceZero/AnnounceZeroPlugin.py line 102 in mode start
+[2022-03-17 23:17:21,572] WARNING  Site:1Gfey7..fcdp Tracker http://tracker01.loveapp.com:6789/announce announce failed: URLError: <urlopen error [Errno 111] Connection refused> in SiteAnnouncer.py line 198 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 126 > AnnounceBitTorrent/AnnounceBitTorrentPlugin.py line 91 > request.py line 222 > request.py line 525 > request.py line 543 > request.py line 503 > request.py line 1345 > request.py line 1319 in mode start
+[2022-03-17 23:17:22,692] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 4, started: 4, bad files: 4, total started: 4
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Slow task: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, (workers: 1, optional_hash_id: None, peers: 0, failed: 9, asked: 0)
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:22,693] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker (need more workers)), tasks: 4, peers: 0, workers: 1
+[2022-03-17 23:17:22,898] DEBUG    WorkerManager:1Gfey7..fcdp Tasks: 1, started: 1, bad files: 1, total started: 1
+[2022-03-17 23:17:22,898] DEBUG    WorkerManager:1Gfey7..fcdp Slow task: content.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 14, asked: 0)
+[2022-03-17 23:17:22,898] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Task checker), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:22,899] DEBUG    WorkerManager:1Gfey7..fcdp Starting workers (Task checker (need more workers)), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:22,906] DEBUG    ConnServer Conn#20 45.77.23.92  [v2] > Closing connection: [Cleanup] Tracker connection, idle: 24.380s, waiting_requests: 0, sites: 3, buff: 0...
+[2022-03-17 23:17:22,906] DEBUG    ConnServer Conn#25 149.248.37.249 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 24.326s, waiting_requests: 0, sites: 4, buff: 0...
+[2022-03-17 23:17:22,907] DEBUG    ConnServer Conn#39 145.239.95.38 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.101s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:17:22,907] DEBUG    ConnServer Conn#40 188.116.183.41 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.116s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:17:22,907] DEBUG    ConnServer Conn#41 95.110.227.231 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 23.253s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:17:29,534] DEBUG    ConnServer Conn#42 159.65.50.3  [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:17:35,418] DEBUG    WorkerManager:1TaLkF..jipT 159.65.50.3:26117: Verify failed: data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json, error: Download failed, failed peers: 9, workers: 0
+[2022-03-17 23:17:37,693] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 4, started: 4, bad files: 4, total started: 4
+[2022-03-17 23:17:37,693] DEBUG    WorkerManager:1TaLkF..jipT Timeout, Skipping: {'evt': <gevent._event.AsyncResult object at 0x7fee429944a8>, 'workers_num': 0, 'site': <Site 1TaLkF..jipT>, 'inner_path': 'data/users/17AVpNHSdYr4wuhunNZ9eYVVmRJAXTatmi/data.json', 'done': False, 'optional_hash_id': None, 'time_added': 1647584195.4546463, 'time_started': 1647584195.4552124, 'time_action': None, 'peers': None, 'priority': 3, 'failed': [<Peer:45.77.23.92 >, <Peer:85.29.96.24 >, <Peer:198.199.119.87>, <Peer:67.167.105.99>, <Peer:145.255.36.200>, <Peer:23.184.48.134>, <Peer:149.248.37.249>, <Peer:176.223.142.3>, <Peer:176.101.222.131>, <Peer:159.65.50.3 >], 'size': 2682}
+[2022-03-17 23:17:37,694] DEBUG    WorkerManager:1TaLkF..jipT Timeout, Skipping: {'evt': <gevent._event.AsyncResult object at 0x7fee40143588>, 'workers_num': 1, 'site': <Site 1TaLkF..jipT>, 'inner_path': 'data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json', 'done': False, 'optional_hash_id': None, 'time_added': 1647584195.4550643, 'time_started': 1647584195.4553418, 'time_action': None, 'peers': None, 'priority': 2, 'failed': [<Peer:198.199.119.87>, <Peer:67.167.105.99>, <Peer:85.29.96.24 >, <Peer:45.77.23.92 >, <Peer:145.255.36.200>, <Peer:149.248.37.249>, <Peer:176.223.142.3>, <Peer:176.101.222.131>, <Peer:23.184.48.134>], 'size': 1792}
+[2022-03-17 23:17:37,694] DEBUG    WorkerManager:1TaLkF..jipT 159.65.50.3:26117: Force skipping
+[2022-03-17 23:17:37,694] DEBUG    WorkerManager:1TaLkF..jipT 159.65.50.3:26117: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 9, workers: 0
+[2022-03-17 23:17:37,899] DEBUG    WorkerManager:1Gfey7..fcdp Tasks: 1, started: 1, bad files: 1, total started: 1
+[2022-03-17 23:17:37,899] DEBUG    WorkerManager:1Gfey7..fcdp Timeout, Skipping: {'evt': <gevent._event.AsyncResult object at 0x7fee429940b8>, 'workers_num': 0, 'site': <Site 1Gfey7..fcdp>, 'inner_path': 'content.json', 'done': False, 'optional_hash_id': None, 'time_added': 1647584182.899469, 'time_started': 1647584183.2543478, 'time_action': None, 'peers': None, 'priority': 10000, 'failed': [<Peer:198.199.119.87>, <Peer:2t5gqntpkhreiyns.onion>, <Peer:qnlwuiivgjz5oenx.onion>, <Peer:i3ifsltilwj5ujwd.onion>, <Peer:tmmaspiyirh6dbz2.onion>, <Peer:2fpldojdkrjenpr7.onion>, <Peer:74k2jxig3kbvyhrr.onion>, <Peer:t2zvf62d7ratyasy.onion>, <Peer:145.255.36.200>, <Peer:67.167.105.99>, <Peer:85.29.96.24 >, <Peer:95.25.225.165>, <Peer:176.101.222.131>, <Peer:70.68.9.81  >], 'size': 0}
+[2022-03-17 23:17:37,899] DEBUG    Site:1Gfey7..fcdp Can't update content.json
+[2022-03-17 23:17:37,900] DEBUG    Site:1Gfey7..fcdp Download content.json failed, check_modifications: False
+[2022-03-17 23:17:37,900] DEBUG    Site:1Gfey7..fcdp Download content.json failed, check_modifications: False
+[2022-03-17 23:17:42,973] DEBUG    ConnServer Conn#42 159.65.50.3  [v2] > Closing connection: Peer connection: Response error, waiting_requests: 0, sites: 2, buff: 0...
+[2022-03-17 23:17:42,973] DEBUG    WorkerManager:1TaLkF..jipT 159.65.50.3:26117: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 9, workers: 0
+[2022-03-17 23:17:42,973] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 0/5
+[2022-03-17 23:17:42,973] DEBUG    WorkerManager:1TaLkF..jipT Starting new workers... (tasks: 3)
+[2022-03-17 23:17:42,973] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Removed worker), tasks: 3, peers: 0, workers: 0
+[2022-03-17 23:17:42,973] DEBUG    WorkerManager:1TaLkF..jipT Timeout, Skipping: {'evt': <gevent._event.AsyncResult object at 0x7fee4006db38>, 'workers_num': 0, 'site': <Site 1TaLkF..jipT>, 'inner_path': 'data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json', 'done': False, 'optional_hash_id': None, 'time_added': 1647584195.4551413, 'time_started': 1647584195.4554763, 'time_action': None, 'peers': None, 'priority': 2, 'failed': [<Peer:67.167.105.99>, <Peer:145.255.36.200>, <Peer:198.199.119.87>, <Peer:45.77.23.92 >, <Peer:85.29.96.24 >, <Peer:176.101.222.131>, <Peer:149.248.37.249>, <Peer:176.223.142.3>, <Peer:23.184.48.134>, <Peer:159.65.50.3 >], 'size': 6069}
+[2022-03-17 23:17:42,974] DEBUG    WorkerManager:1TaLkF..jipT Timeout, Skipping: {'evt': <gevent._event.AsyncResult object at 0x7fee4006dc88>, 'workers_num': 0, 'site': <Site 1TaLkF..jipT>, 'inner_path': 'data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json', 'done': False, 'optional_hash_id': None, 'time_added': 1647584195.4551866, 'time_started': 1647584195.455596, 'time_action': None, 'peers': None, 'priority': 2, 'failed': [<Peer:145.255.36.200>, <Peer:45.77.23.92 >, <Peer:198.199.119.87>, <Peer:67.167.105.99>, <Peer:85.29.96.24 >, <Peer:176.223.142.3>, <Peer:176.101.222.131>, <Peer:149.248.37.249>, <Peer:23.184.48.134>], 'size': 359}
+[2022-03-17 23:17:42,974] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker (need more workers)), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:43,075] DEBUG    WorkerManager:1TaLkF..jipT 159.65.50.3:26117: No task found, stopping (downloaded files: 0, failed: 3)
+[2022-03-17 23:17:43,075] DEBUG    WorkerManager:1TaLkF..jipT Starting new workers... (tasks: 1)
+[2022-03-17 23:17:43,075] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Removed worker), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:17:57,974] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 1, started: 1, bad files: 4, total started: 4
+[2022-03-17 23:17:57,975] DEBUG    WorkerManager:1TaLkF..jipT Timeout, Skipping: {'evt': <gevent._event.AsyncResult object at 0x7fee40143588>, 'workers_num': 0, 'site': <Site 1TaLkF..jipT>, 'inner_path': 'data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json', 'done': False, 'optional_hash_id': None, 'time_added': 1647584195.4550643, 'time_started': 1647584195.4553418, 'time_action': None, 'peers': None, 'priority': 2, 'failed': [<Peer:198.199.119.87>, <Peer:67.167.105.99>, <Peer:85.29.96.24 >, <Peer:45.77.23.92 >, <Peer:145.255.36.200>, <Peer:149.248.37.249>, <Peer:176.223.142.3>, <Peer:176.101.222.131>, <Peer:23.184.48.134>, <Peer:159.65.50.3 >], 'size': 1792}
+[2022-03-17 23:19:22,479] DEBUG    ChartCollector Global collectors done in 0.000s
+[2022-03-17 23:19:22,481] DEBUG    ChartCollector Global collectors inserted in 0.002s
+[2022-03-17 23:19:22,491] DEBUG    ChartCollector Site collections done in 0.009s
+[2022-03-17 23:19:22,491] DEBUG    ChartCollector Site collectors inserted in 0.000s
+[2022-03-17 23:19:22,810] DEBUG    Db:Chart Commited in 0.002s (reason: Interval)
+[2022-03-17 23:20:02,569] DEBUG    ConnServer Conn#36 23.184.48.134 [v2] > Closing connection: MessageLoop ended (closed: False), waiting_requests: 0, sites: 2, buff: 0...
+[2022-03-17 23:20:03,546] DEBUG    ConnServer Conn#43 179.13.76.7  [?] > Incoming connection...
+[2022-03-17 23:20:03,546] DEBUG    ConnServer Conn#43 179.13.76.7  [?] > Crypt in connection using implicit SSL
+[2022-03-17 23:20:07,543] DEBUG    ConnServer Conn#43 179.13.76.7  [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:22,478] DEBUG    Db:ContentDb Optional size: 0.0MB/2889.8MB, Need delete: -2889.8MB
+[2022-03-17 23:21:22,914] DEBUG    ConnServer Running site cleanup, connections: 9, internet: True, protected peers: 0
+[2022-03-17 23:21:25,918] DEBUG    Site:1TaLkF..jipT Need connections: 6, Current: 6, Total: 90
+[2022-03-17 23:21:27,921] DEBUG    ConnServer Site announce tracker done in 5.007s, sleeping for 128.327s...
+[2022-03-17 23:21:29,351] DEBUG    Site:1HeLLo..Tf3D Pex result: from 2 peers got 1 new peers.
+[2022-03-17 23:21:29,858] DEBUG    ConnServer Conn#23 185.97.32.39 [v2] > Closing connection: MessageLoop ended (closed: False), waiting_requests: 0, sites: 2, buff: 0...
+[2022-03-17 23:21:30,376] DEBUG    Site:1Name2..hM9F Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:21:30,925] DEBUG    Site:1TaLkF..jipT Retry 4 bad files
+[2022-03-17 23:21:30,925] DEBUG    Site:1TaLkF..jipT New downloadFile pool: len: 3, only if bad: True
+[2022-03-17 23:21:30,925] DEBUG    Site:1TaLkF..jipT Ended downloadFile pool len: 3, skipped: 0
+[2022-03-17 23:21:30,925] DEBUG    Site:1TaLkF..jipT Need connections: 6, Current: 6, Total: 90
+[2022-03-17 23:21:30,925] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Added new task), tasks: 1, peers: 0, workers: 0
+[2022-03-17 23:21:30,925] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 67.167.105.99:26794, workers: 1/5
+[2022-03-17 23:21:30,925] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 176.223.142.3:33455, workers: 2/5
+[2022-03-17 23:21:30,925] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 145.255.36.200:38002, workers: 3/5
+[2022-03-17 23:21:30,925] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 176.101.222.131:15441, workers: 4/5
+[2022-03-17 23:21:30,925] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 85.29.96.24:14809, workers: 5/5
+[2022-03-17 23:21:30,926] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 198.199.119.87:11558, workers: 6/5
+[2022-03-17 23:21:31,097] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:21:31,192] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:21:31,205] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 0, workers: 0
+[2022-03-17 23:21:31,410] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:21:31,484] DEBUG    Site:1TaLkF..jipT Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:21:31,726] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:21:31,879] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:21:31,925] DEBUG    Site:1Gfey7..fcdp Retry 1 bad files
+[2022-03-17 23:21:32,272] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:21:32,277] DEBUG    Site:15DoUz..L4KK Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:21:32,353] DEBUG    Site:1Gfey7..fcdp Pex result: from 2 peers got 0 new peers.
+[2022-03-17 23:21:32,458] DEBUG    ConnServer Conn#33 176.223.142.3 [v2] > Closing connection: Peer connection: Response error, waiting_requests: 0, sites: 4, buff: 0...
+[2022-03-17 23:21:32,459] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 4, workers: 0
+[2022-03-17 23:21:32,583] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 1, workers: 0
+[2022-03-17 23:21:32,694] DEBUG    ConnServer Conn#32 176.101.222.131 [v2] > Closing connection: Peer connection: Response error, waiting_requests: 0, sites: 5, buff: 0...
+[2022-03-17 23:21:32,694] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:21:33,025] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:21:33,029] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 2, workers: 0
+[2022-03-17 23:21:33,445] DEBUG    WorkerManager:1TaLkF..jipT 67.167.105.99:26794: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 3, workers: 0
+[2022-03-17 23:21:33,445] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 5/5
+[2022-03-17 23:21:33,460] DEBUG    ConnServer Conn#44 176.223.142.3 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:33,696] DEBUG    ConnServer Conn#45 176.101.222.131 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:33,863] DEBUG    WorkerManager:1TaLkF..jipT 145.255.36.200:38002: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:21:33,863] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 4/5
+[2022-03-17 23:21:34,545] DEBUG    ConnServer Conn#44 176.223.142.3 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:34,816] DEBUG    ConnServer Conn#44 176.223.142.3 [v2] > Closing connection: Peer connection: Response error, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:21:34,816] DEBUG    WorkerManager:1TaLkF..jipT 176.223.142.3:33455: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 4, workers: 0
+[2022-03-17 23:21:34,817] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 3/5
+[2022-03-17 23:21:34,826] DEBUG    ConnServer Conn#45 176.101.222.131 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:34,986] DEBUG    WorkerManager:1TaLkF..jipT 198.199.119.87:11558: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:21:34,986] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 2/5
+[2022-03-17 23:21:35,106] DEBUG    ConnServer Conn#45 176.101.222.131 [v2] > Closing connection: Peer connection: Response error, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:21:35,106] DEBUG    WorkerManager:1TaLkF..jipT 176.101.222.131:15441: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 4, workers: 1
+[2022-03-17 23:21:35,106] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 1/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT 85.29.96.24:14809: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 5, workers: 0
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 0/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Starting new workers... (tasks: 3)
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Removed worker), tasks: 3, peers: 0, workers: 0
+[2022-03-17 23:21:35,231] DEBUG    Site:1TaLkF..jipT Recent peers 25 of 35 (need: 10)
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 142.147.99.49:27052, workers: 1/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 72.84.66.113:23654, workers: 2/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 109.78.105.184:17523, workers: 3/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 187.155.34.33:22089, workers: 4/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 107.144.195.252:11147, workers: 5/5
+[2022-03-17 23:21:35,231] DEBUG    WorkerManager:1TaLkF..jipT Added worker: 90.27.237.200:13491, workers: 6/5
+[2022-03-17 23:21:35,231] DEBUG    ConnServer Conn#46 142.147.99.49 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:35,232] DEBUG    ConnServer Conn#47 72.84.66.113 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:35,232] DEBUG    ConnServer Conn#48 109.78.105.184 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:35,934] DEBUG    ConnServer Conn#46 142.147.99.49 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:36,109] DEBUG    WorkerManager:1TaLkF..jipT 142.147.99.49:27052: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 6, workers: 0
+[2022-03-17 23:21:36,138] DEBUG    ConnServer Conn#49 187.155.34.33 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:36,140] DEBUG    ConnServer Conn#50 107.144.195.252 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:36,140] DEBUG    ConnServer Conn#51 90.27.237.200 [?] > Connecting... (site: Site 1TaLkF..jipT)
+[2022-03-17 23:21:36,559] DEBUG    WorkerManager:1TaLkF..jipT 109.78.105.184:17523: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 6, workers: 0
+[2022-03-17 23:21:36,789] DEBUG    ConnServer Conn#50 107.144.195.252 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:36,944] DEBUG    WorkerManager:1TaLkF..jipT 107.144.195.252:11147: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 7, workers: 2
+[2022-03-17 23:21:37,019] DEBUG    ConnServer Conn#49 187.155.34.33 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:37,237] DEBUG    WorkerManager:1TaLkF..jipT 187.155.34.33:22089: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 8, workers: 1
+[2022-03-17 23:21:37,284] DEBUG    WorkerManager:1TaLkF..jipT 142.147.99.49:27052: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 7, workers: 0
+[2022-03-17 23:21:37,299] DEBUG    ConnServer Conn#51 90.27.237.200 [v2] > Changing unpacker to bin type (unprocessed bytes: 0)
+[2022-03-17 23:21:37,581] DEBUG    WorkerManager:1TaLkF..jipT 90.27.237.200:13491: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 9, workers: 0
+[2022-03-17 23:21:37,923] DEBUG    WorkerManager:1TaLkF..jipT 109.78.105.184:17523: Verify failed: data/users/1GfdMNFt8BmosAqNMvTSPE9TpTwaUwXQw3/data.json, error: Download failed, failed peers: 10, workers: 0
+[2022-03-17 23:21:38,108] DEBUG    WorkerManager:1TaLkF..jipT 107.144.195.252:11147: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 8, workers: 0
+[2022-03-17 23:21:38,457] DEBUG    WorkerManager:1TaLkF..jipT 187.155.34.33:22089: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 9, workers: 0
+[2022-03-17 23:21:38,867] DEBUG    WorkerManager:1TaLkF..jipT 90.27.237.200:13491: Verify failed: data/users/1PNvxxkX8GY1stfio3eJqFrM9JfAzMpxbG/data.json, error: Download failed, failed peers: 10, workers: 0
+[2022-03-17 23:21:39,366] DEBUG    WorkerManager:1TaLkF..jipT 142.147.99.49:27052: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 6, workers: 1
+[2022-03-17 23:21:39,366] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 5/5
+[2022-03-17 23:21:40,095] DEBUG    WorkerManager:1TaLkF..jipT 109.78.105.184:17523: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 7, workers: 2
+[2022-03-17 23:21:40,095] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 4/5
+[2022-03-17 23:21:40,188] DEBUG    WorkerManager:1TaLkF..jipT 107.144.195.252:11147: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 8, workers: 1
+[2022-03-17 23:21:40,188] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 3/5
+[2022-03-17 23:21:40,587] DEBUG    WorkerManager:1TaLkF..jipT 187.155.34.33:22089: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 9, workers: 1
+[2022-03-17 23:21:40,587] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 2/5
+[2022-03-17 23:21:41,064] DEBUG    WorkerManager:1TaLkF..jipT 90.27.237.200:13491: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 10, workers: 1
+[2022-03-17 23:21:41,064] DEBUG    WorkerManager:1TaLkF..jipT Removed worker, workers: 1/5
+[2022-03-17 23:21:42,982] DEBUG    WorkerManager:1TaLkF..jipT Tasks: 3, started: 3, bad files: 4, total started: 3
+[2022-03-17 23:21:42,982] DEBUG    WorkerManager:1TaLkF..jipT Starting workers (Task checker (need more workers)), tasks: 3, peers: 0, workers: 1
+[2022-03-17 23:21:52,001] DEBUG    ConnServer Conn#18 145.255.36.200 [v2] > Closing connection: MessageLoop ended (closed: False), waiting_requests: 0, sites: 5, buff: 0...
+[2022-03-17 23:21:52,923] DEBUG    ConnServer Conn#47 72.84.66.113 [?] > Closing connection: [Cleanup] Connect timeout: 17.691s, waiting_requests: 0, sites: 1, buff: 0...
+[2022-03-17 23:21:52,924] DEBUG    WorkerManager:1TaLkF..jipT 72.84.66.113:23654: Verify failed: data/users/1KPs3rW6N5HgKQsjSJiQz4go76DjLceHvo/data.json, error: Download failed, failed peers: 11, workers: 0
+[2022-03-17 23:21:53,925] DEBUG    ConnServer Conn#52 72.84.66.113 [?] > Connecting... (site: Site 1TaLkF..jipT)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
