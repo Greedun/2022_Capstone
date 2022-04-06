@@ -1,14 +1,13 @@
 import re
 import os
 import requests
-import glob
-import fileinput
 
+path_base = os.getcwd()
 tracker_address = re.compile("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")
 ipbox = list()
 def tracker_list():
-	f = open("tracker", "w")
-	with open("trackers.json", "r") as tracker:
+	f = open(path_base+"/tracker", "w")
+	with open(path_base+"/trackers.json", "r") as tracker:
 		while True:
 			line = tracker.readline()
 			if line == '':
@@ -21,7 +20,7 @@ def tor_node_list():
 	req = requests.get("https://check.torproject.org/exit-addresses")
 	req_lines = req.text.split("\n")
 	
-	with open("tor", "w") as node_file:
+	with open(path_base+"/tor", "w") as node_file:
 		for line in req_lines:
 			if line.startswith("ExitAddress"):
 				ip = line.split(" ")[1]
@@ -30,14 +29,14 @@ def tor_node_list():
 			return True
 
 def check_tor(ip):
-	with open("tor", 'r') as tor_ip:
+	with open(path_base+"/tor", 'r') as tor_ip:
 		if ip in tor_ip.read():
 			return "True"
 		else:
 			return "False"
 			
 def check_tracker(ip):
-	with open("tracker", 'r') as tracker_ip:
+	with open(path_base+"/tracker", 'r') as tracker_ip:
 		if ip in tracker_ip.read():
 			return "tracker"
 		else:
@@ -50,6 +49,7 @@ def user_data(ip):
 	data =  response.json()
 	return data
 
+# main
 tracker_list()
 tor_node_list()
 
@@ -93,15 +93,15 @@ for filename in input_files:
 				for ip in address:
 					ipbox.append(ip)
 
-
+# main
 ipbox = list(set(ipbox))
 ipbox.sort()
 
-g = open("peer", 'w')
+g = open(path_base+"/peer", 'w')
 for ip in ipbox:
     g.write(f"host {ip} or ")
 
-p = open("data", 'w')
+p = open(path_base+"/data", 'w')
 for ip in ipbox:
 	tor = check_tor(ip)
 	tracker = check_tracker(ip)

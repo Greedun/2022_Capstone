@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Board(model.Model):
+class Board(models.Model):
     # id, ip, 노드실제위치, 발생하는 트래픽값, 토르사용유무, 가장 인접한 노드 이름
     # id, ip, NodeLocaton, Traffic_var, toruse, nearnode
     idx = models.AutoField(primary_key=True, verbose_name="ID")

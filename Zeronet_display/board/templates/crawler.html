@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block contents %}
+<div class="row mt-5">
+	<div class="col-12">
+		<table class="table table-light">
+			<thead class="thead-light">
+				<tr>
+					<th>ip</th>
+					<th>토르</th>
+					<th>p/t</th>
+                    <th>나라</th>
+                    <th>지역</th>
+                    <th>경도,위도</th>
+				</tr>
+			</thead>
+			<tbody class="text-dark">
+				{% for board in boards %}
+				<tr>
+					{% for index in board %}
+					<td>{{index}}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+{% endblock %}
