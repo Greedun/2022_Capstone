@@ -4,6 +4,7 @@ import os,re
 from django.shortcuts import render
 
 from . import crawler_library
+from scapy.all import*
 
 # Create your views here.
 def main(request):
@@ -93,3 +94,38 @@ def crawler(request):
     del im_d
     
     return render(request,'crawler.html',{'boards':boards})
+
+def packet(request):
+    
+    res_data = {'test'}
+    packets = []
+    path_base = os.getcwd()+"/board/packet_data/"
+    host = ''
+    
+    with open(path_base+'traffic', 'r') as f:
+        lines = f.readlines()
+        # mywrite.write(f"{local_time} {proto_T} {layer_v} {src_ip} {dst_ip} {src_port} {dst_port} {pkt_size}\n")
+        # 2022-04-04 04:08:46 TCP None 211.179.145.148 192.168.201.141 40
+        for line in lines:
+            tmp = list()
+            tmp = line.split(' ')[0:6]
+            tmp.append("None") #src_port
+            tmp.append("None") #dst_port
+            tmp.append(line.split(' ')[-1][:-1]) #pkt_size
+            packets.append(tmp)
+            #print(tmp)
+            
+    
+    '''
+    # contents
+    with open(path_base+'peer', 'r') as ips:
+        for line in ips:
+            ip = line.rstrip('\n')
+            host += "host" + " " + ip + " " + "or" + " "
+    filter = host[:-4]
+    load_layer('tls')
+    p = sniff(filter = filter, prn=crawler_library.Traffic_Packet, store=0, timeout = 3600)
+    print("finish")
+    '''
+    
+    return render(request, 'packet.html',{'packets':packets})

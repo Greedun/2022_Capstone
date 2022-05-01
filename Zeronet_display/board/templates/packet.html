@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block contents %}
+<div class="row mt-5">
+	<div class="col-12">
+		<table class="table table-light">
+			<thead class="thead-light">
+				<tr>
+					<th>로컬시간</th>
+					<th>프로토콜</th>
+					<th>버전</th>
+                    <th>출발지_ip</th>
+                    <th>도착지_ip</th>
+                    <th>출발지_port</th>
+                    <th>도착지_port</th>
+                    <th>패킷 크기</th>
+				</tr>
+			</thead>
+			<tbody class="text-dark">
+				{% for packet in packets %}
+				<tr>
+					{% for index in packet %}
+					<td>{{index}}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+{% endblock %}

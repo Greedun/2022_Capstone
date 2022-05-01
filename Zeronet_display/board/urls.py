@@ -6,5 +6,6 @@ from . import views
 
 urlpatterns = [
     path('main/', views.main),
-    path('crawler/', views.crawler)
+    path('crawler/', views.crawler),
+    path('packet/', views.packet)
 ]
