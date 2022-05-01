@@ -129,3 +129,5 @@ def packet(request):
     '''
     
     return render(request, 'packet.html',{'packets':packets})
+# 패킷 리스팅 페이지를 만들었으니 페이지를 표시하는 것을 구현해야한다.
+# json -> txt, csv변환
