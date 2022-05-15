@@ -1,13 +1,24 @@
+from ping3 import ping
 import re
 import os
 import requests
+import glob
+import fileinput
 
-path_base = os.getcwd()
 tracker_address = re.compile("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")
 ipbox = list()
+
+def ping_test(ip):
+	result = ping(ip, unit='ms')
+	if result == None:
+		result = 0
+		return result
+	else:
+		result = round(result, 2)
+		return result
 def tracker_list():
-	f = open(path_base+"/tracker", "w")
-	with open(path_base+"/trackers.json", "r") as tracker:
+	f = open("tracker", "w")
+	with open("trackers.json", "r") as tracker:
 		while True:
 			line = tracker.readline()
 			if line == '':
@@ -20,7 +31,7 @@ def tor_node_list():
 	req = requests.get("https://check.torproject.org/exit-addresses")
 	req_lines = req.text.split("\n")
 	
-	with open(path_base+"/tor", "w") as node_file:
+	with open("tor", "w") as node_file:
 		for line in req_lines:
 			if line.startswith("ExitAddress"):
 				ip = line.split(" ")[1]
@@ -29,14 +40,14 @@ def tor_node_list():
 			return True
 
 def check_tor(ip):
-	with open(path_base+"/tor", 'r') as tor_ip:
+	with open("tor", 'r') as tor_ip:
 		if ip in tor_ip.read():
 			return "True"
 		else:
 			return "False"
 			
 def check_tracker(ip):
-	with open(path_base+"/tracker", 'r') as tracker_ip:
+	with open("tracker", 'r') as tracker_ip:
 		if ip in tracker_ip.read():
 			return "tracker"
 		else:
@@ -49,7 +60,6 @@ def user_data(ip):
 	data =  response.json()
 	return data
 
-# main
 tracker_list()
 tor_node_list()
 
@@ -93,24 +103,27 @@ for filename in input_files:
 				for ip in address:
 					ipbox.append(ip)
 
-# main
+
 ipbox = list(set(ipbox))
 ipbox.sort()
 
-g = open(path_base+"/peer", 'w')
+g = open("peer", 'w')
 for ip in ipbox:
-    g.write(f"host {ip} or ")
+    g.write(f"{ip}\n")
 
-p = open(path_base+"/data", 'w')
+p = open("data", 'w')
 for ip in ipbox:
+	ping_result = ping_test(ip)
 	tor = check_tor(ip)
 	tracker = check_tracker(ip)
 	data = user_data(ip)
 	country = data['country']
 	city = data['city']
 	loc = data['loc']
-	p.write(f"{ip} {tor} {tracker} {country} {city} {loc} \n")
+	p.write(f"{ip} {tor} {tracker} {country} {city} {loc} {ping_result} \n")
 
 
 p.close()
 g.close()
+
+exec(open("packet.py").read())

@@ -1,20 +1,106 @@
+from dataclasses import dataclass
 from http.client import IM_USED
 import os,re
+from struct import pack
 
 from django.shortcuts import render
 
 from . import crawler_library
 from scapy.all import*
 
+test_json = {
+        'sent_pps' :[
+            {'time' : '5:10', 'p_num' : 220},
+            {'time' : '5:20', 'p_num' : 120},
+            {'time' : '5:30', 'p_num' : 98},
+            {'time' : '5:40', 'p_num' : 550},
+            {'time' : '5:50', 'p_num' : 230},
+            {'time' : '6:00', 'p_num' : 20}    
+            ],
+        'sent_bps' :[
+            {'time' : '5:10', 'p_num' : 500},
+            {'time' : '5:20', 'p_num' : 780},
+            {'time' : '5:30', 'p_num' : 1000},
+            {'time' : '5:40', 'p_num' : 640},
+            {'time' : '5:50', 'p_num' : 684},
+            {'time' : '6:00', 'p_num' : 431}    
+            ],
+        'rcv_pps' :[
+            {'time' : '5:10', 'p_num' : 132},
+            {'time' : '5:20', 'p_num' : 312},
+            {'time': '5:30', 'p_num': 142},
+            {'time' : '5:40', 'p_num' : 640},
+            {'time' : '5:50', 'p_num' : 684},
+            {'time' : '6:00', 'p_num' : 431}    
+            ],
+        'rcv_bps' :[
+            {'time' : '5:10', 'p_num' : 880},
+            {'time' : '5:20', 'p_num' : 945},
+            {'time' : '5:30', 'p_num' : 435},
+            {'time' : '5:40', 'p_num' : 1234},
+            {'time' : '5:50', 'p_num' : 4321},
+            {'time' : '6:00', 'p_num' : 765}    
+            ],
+        
+    }
+
 # Create your views here.
 def main(request):
+    datas = []
+    sent_pps, sent_bps, rcv_pps, rcv_bps = [], [], [], []
+    im = []
+    sent_pps = test_json['sent_pps']
+    sent_bps = test_json['sent_bps']
+    rcv_pps = test_json['rcv_pps']
+    rcv_bps = test_json['rcv_bps']
+    
+    data = ''
+    im = []
+    v_data = []
+    # 함수화 시키면 좋을듯
+    for datas in sent_pps:
+        keyList = datas.keys()
+        data = ''
+        for item in keyList:
+            data = str(data) + str("_") +str(datas[item])
+        im.append(data[1:])
+    v_data.append(im)
+    
+    im = []
+    for datas in sent_bps:
+        keyList = datas.keys()
+        data = ''
+        for item in keyList:
+            data = str(data) + str("_") +str(datas[item])
+        im.append(data[1:])
+
+    v_data.append(im)
+    
+    im = []
+    for datas in rcv_pps:
+        keyList = datas.keys()
+        data = ''
+        for item in keyList:
+            data = str(data) + str("_") +str(datas[item])
+        im.append(data[1:])
+    v_data.append(im)
+    
+    im = []
+    for datas in rcv_bps:
+        keyList = datas.keys()
+        data = ''
+        for item in keyList:
+            data = str(data) + str("_") +str(datas[item])
+        im.append(data[1:])
+    v_data.append(im)
+    
     if request.method == 'GET':
         pass
     elif request.method == 'POST':
         pass
-    res_data = {}
     
-    return render(request, 'main.html',res_data)
+    # v_data : visual_data
+    return render(request, 'main.html',{'v_data':v_data})
 
 def crawler(request):
     res_data = {}
