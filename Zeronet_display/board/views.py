@@ -12,7 +12,6 @@ from scapy.all import*
 # Create your views here.
 def main(request):
     send_json = rawtojson() # 딕셔너리
-    print(send_json['sent_pps'])
     
     if request.method == 'GET':
         pass
@@ -119,24 +118,13 @@ def packet(request):
             tmp.append("None") #dst_port
             tmp.append(line.split(' ')[-1][:-1]) #pkt_size
             packets.append(tmp)
-            #print(tmp)
-            
-    
-    '''
-    # contents
-    with open(path_base+'peer', 'r') as ips:
-        for line in ips:
-            ip = line.rstrip('\n')
-            host += "host" + " " + ip + " " + "or" + " "
-    filter = host[:-4]
-    load_layer('tls')
-    p = sniff(filter = filter, prn=crawler_library.Traffic_Packet, store=0, timeout = 3600)
-    print("finish")
-    '''
     
     return render(request, 'packet.html',{'packets':packets})
 # 패킷 리스팅 페이지를 만들었으니 페이지를 표시하는 것을 구현해야한다.
 # json -> txt, csv변환
+
+import os
+import pandas as pd
 
 def returnbase(time):
     # 5분단위로 범위 생성하는 로직
@@ -181,21 +169,46 @@ def create_baseline(time):
     return baseline_list
 
 # baseline을 기반으로 json frame을 만들어 준다.
-def create_json(baseline_list):
+def create_json(baseline_list, my_ip, time,df_list):
     send_json = {}
     
-    l = []
+    l1 = []
+    l2 = []
+    l3 = []
+    l4 = []
     for b in baseline_list:
         tmp = {}
         tmp['time'] = b
         tmp['p_num'] = 0
-        l.append(tmp)
+        l1.append(tmp.copy())
+        l2.append(tmp.copy())
+        l3.append(tmp.copy())
+        l4.append(tmp.copy())
         del tmp
+
+    for t in range(len(time)):
+        base = returnbase(time[t])
+        base_i = baseline_list.index(base)
+        l1[base_i]['p_num'] += count_pps(df_list[t],'src_ip', my_ip)
+    send_json['sent_pps'] = l1.copy()
+
+    for t in range(len(time)):
+        base = returnbase(time[t])
+        base_i = baseline_list.index(base)
+        l2[base_i]['p_num'] += sum_bps(df_list[t],'src_ip', my_ip)
+    send_json['sent_bps'] = l2.copy()
     
-    send_json['sent_pps'] = l
-    send_json['sent_bps'] = l
-    send_json['rcv_pps'] = l
-    send_json['rcv_bps'] = l
+    for t in range(len(time)):
+        base = returnbase(time[t])
+        base_i = baseline_list.index(base)
+        l3[base_i]['p_num'] += count_pps(df_list[t],'dst_ip', my_ip)
+    send_json['rcv_pps'] = l3.copy()
+    
+    for t in range(len(time)):
+        base = returnbase(time[t])
+        base_i = baseline_list.index(base)
+        l4[base_i]['p_num'] += sum_bps(df_list[t],'dst_ip', my_ip)
+    send_json['rcv_bps'] = l4.copy()
     
     return send_json
 
@@ -220,7 +233,6 @@ def rawtojson():
     raw_data = [] # 이중 리스트
     time = []
     df_list = [] # 12개의 데이터프레임이 들어감. 5분단위의
-    col_name = ['local_host_day', 'local_host_time', 'proto_T', 'layer_V', 'src_ip', 'dst_ip', 'src_port', 'dst_port', 'pkt_size']
     
     with open(path_base+'traffic', 'r') as f:
         lines = f.readlines()
@@ -237,46 +249,25 @@ def rawtojson():
             # 서로 다른 시간의 모음
             if(not tmp[1][:5] in time):
                 time.append(tmp[1][:5])
+                
+    # raw_data : 이중 리스트
+    col_name = ['local_host_day', 'local_host_time', 'proto_T', 'layer_V', 'src_ip', 'dst_ip', 'src_port', 'dst_port', 'pkt_size']
     a_df_list = pd.DataFrame(raw_data, columns=col_name)
-        
-    
+
     # 시간별로 데이터 프레임을 리스트에 저장
     for t in range(len(time)):
-        #base_line = fiveminute(t,time) # 해당 시간에 포함되는 기준값
-        #print(df_list.loc[df_list['local_host_time'].str.contains('04:08')])
         df_list.append(a_df_list.loc[a_df_list['local_host_time'].str.contains(time[t])])
-    #print(df_list[0])
-    #print(time)
+        
     
     # 처음 시간에 대한 기준점부터 1시간(12개)의 기준 시간을 생성
     base_line = create_baseline(time)
-    #print(base_line)
-    send_json = create_json(base_line)
-    #print(send_json)
     
-    # send_pps, send_bps, rcv_pps, rcv_bps
-    # df_list : 캡쳐된 시간별로 데이터 모음 -> base_line기준으로 합병
+    # 프론트가 원하는 데이터 형식으로 변환
     my_ip = '211.179.145.148'
-    for t in range(len(time)):
-        base = returnbase(time[t])
-        base_i = base_line.index(base)
-        pps = count_pps(df_list[t],'src_ip', my_ip)
-        send_json['sent_pps'][base_i]['p_num'] += pps
-        
-        bps = sum_bps(df_list[t],'src_ip', my_ip)
-        send_json['sent_bps'][base_i]['p_num'] += bps
-        
-        pps = sum_bps(df_list[t],'dst_ip', my_ip)
-        send_json['rcv_pps'][base_i]['p_num'] += pps
-        
-        bps = sum_bps(df_list[t],'dst_ip', my_ip)
-        send_json['rcv_bps'][base_i]['p_num'] += bps
-        
-    #print(send_json['sent_pps'])
-    #print(send_json['sent_bps'])
-    #print(send_json['rcv_pps'])
-    #print(send_json['rcv_bps'])      
+    send_json = create_json(base_line, my_ip,time,df_list)
     
-    return send_json
+    #print(send_json['sent_pps'])
 
-# 현재까지 한것 : 시간별로 데이터 프레임 분할 저장 -> 기준시간(12개)생성 -> send_json의 프레임 완성 -> pps게산 완료 -> bps 계산 완료 -> send_json에 pps, bps반영
+    # send_pps, send_bps, rcv_pps, rcv_bps
+    # df_list : 캡쳐된 시간별로 데이터 모음 -> base_line기준으로 합병   
+    return send_json
