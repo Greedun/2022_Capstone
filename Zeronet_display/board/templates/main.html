@@ -13,11 +13,11 @@
     </div>
 </div>
 
-{% for data in v_data %}
+{% for key in send_json %}
 	<tr>
-		{% for index in data %}
-		<td>{{index}}</td>
-		{% endfor %}
+		{% for i in send_json.sent_pps %}
+        <td>{{i}}</td><br>
+        {% endfor %}
 	</tr>
 {% endfor %}
 
