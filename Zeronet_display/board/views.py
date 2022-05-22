@@ -11,7 +11,8 @@ from scapy.all import*
 
 # Create your views here.
 def main(request):
-    send_json = rawtojson() # 딕셔너리
+    day = data_day()
+    t_time = rawtojson() # # t_time(dic)
     
     if request.method == 'GET':
         pass
@@ -19,7 +20,7 @@ def main(request):
         pass
     
     # v_data : visual_data
-    return render(request, 'main.html',{'send_json':send_json})
+    return render(request, 'main.html',{'t_time':t_time})
 
 def crawler(request):
     res_data = {}
@@ -122,9 +123,6 @@ def packet(request):
     return render(request, 'packet.html',{'packets':packets})
 # 패킷 리스팅 페이지를 만들었으니 페이지를 표시하는 것을 구현해야한다.
 # json -> txt, csv변환
-
-import os
-import pandas as pd
 
 def returnbase(time):
     # 5분단위로 범위 생성하는 로직
@@ -271,3 +269,6 @@ def rawtojson():
     # send_pps, send_bps, rcv_pps, rcv_bps
     # df_list : 캡쳐된 시간별로 데이터 모음 -> base_line기준으로 합병   
     return send_json
+
+def data_day():
+    pass
