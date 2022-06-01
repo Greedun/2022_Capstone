@@ -100,7 +100,7 @@ let t_time =
     //하루, 주단위 2개 그릴 예정(현재는 하루만 그려놓음)
     //ex)미국에서 보낸 패킷이 4개, 각 패킷의 길이가 60byte라 할 때
     // name:'US', amount:4, len:240
-    
+    // amount : 갯수 / len : 패킷의 길이(pkt_size) * amount
     const country_traffic = [
         {name: 'US', amount: 600, len:2560},
         {name: 'British', amount: 500, len:2560},
