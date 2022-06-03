@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheets/static.css">
+        <h1 id="greeting">traffic statistics</h1>
+    </head>
+    <body>
+        <div id = "graph">
+            <div i="first">
+                <svg class = "day_traffic"></svg>
+                <svg class = "country_traffic"></svg>
+            </div>
+            <div id="second" style="position: relative;">
+                <g class="'select_time">
+                    <input type="number" placeholder="시간입력:0~24" id="input_time"></input>
+                    <button type="button" id="time_bttn">send</button>
+                </g>
+                <svg class = "proto_pie"></svg>
+                <svg class ="traffic_line"></svg>
+            </div>
+            <svg class ="ip_traffic"></svg>
+            <svg class ="tor"></svg>
+            
+        </div>
+        <script type="module" src="javascripts\stats.js" charset="utf-8"></script>
+    </body>
+</html>
+

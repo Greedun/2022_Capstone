@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+}
+
+#greeting{
+  color:rgb(192, 101, 238);
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  text-shadow: 0 .5vw rgb(63, 33, 78),
+  0 0 1.5vw rgb(157, 83, 193),
+  0 0 5vw rgb(244, 142, 255),
+  0 0 5vw rgb(244, 142, 255),
+  0 0 .2vw rgb(192, 101, 238),
+  .5vw .5vw .1vw rgb(192, 101, 238);
+}
+
+.worldmap{
+  position: absolute;
+  top:20%;
+  /*background-color: rgb(47, 47, 47);*/
+  width: 100vw;
+  height: 80vh;
+  fill:black;
+  stroke:#B537F2;
+  stroke-width: 1px;
+}
+
+
+.tooltip{
+  position: absolute;
+  background-color: aliceblue;
+  opacity: 60%;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+  color: black;
+  border-radius: 5px;
+  display: none;
+}

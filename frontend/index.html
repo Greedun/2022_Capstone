@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src ="https://d3js.org/topojson.v3.min.js"></script>
+        <title>ZeroVisual</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+        <h1 id="greeting">welcome to ZeroVisual!</h1>
+    </head>
+    <body>
+        <div>
+            <svg class="worldmap">
+            </svg>
+        </div>
+        <div class = "tooltip">
+            IP : <span id="ip" class="info"></span><br>
+            peer_id : <span id="peer" class="info"></span><br>
+            region : <span id="region" class="info"></span><br>
+            sent : <span id="sent_traffic" class="info"></span><br>
+            recv : <span id="recv_traffic" class="info"></span><br>
+        </div>
+        <script src = "javascripts/index.js"></script>
+    </body>
+</html>

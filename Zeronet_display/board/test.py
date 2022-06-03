@@ -32,7 +32,8 @@ def data_main():
             # 서로 다른 시간의 모음
             if(not tmp[1][:5] in time):
                 time.append(tmp[1][:5])
-                
+            
+            # 서로 다른 day 모음
             if(not tmp[0] in days):
                 days.append(tmp[0])
                 
@@ -52,17 +53,21 @@ def data_main():
     
     # (2-1) protos - list - 보류
     protos = data_protos(a_df_list,days,1)
+    
     # (2-2) week_protos - list - 추가수정필요
     w_protos = data_protos(a_df_list,days,7)
+    
     
     # (3) t_time - dic
     t_time = rawtojson(df_list, time)
     
     # (4-1) country_traffic - list - 보류
-    country = data_country(p_df_list, a_df_list)
+    country = data_country(p_df_list, a_df_list,1,days)
+    print(country)
     
     # (4-2) week_country_traffic - list
-    w_count = data_country(p_df_list, a_df_list)
+    w_count = data_country(p_df_list, a_df_list,7,days)
+    print(w_count)
     
     # (5) ip_traffic - list
     ip_traffic = data_ip(a_df_list)
@@ -323,7 +328,7 @@ def data_tor(p_df_list):
     return send_list
 
 # 'data'파일에서 나라별 ip를 추출 -> 'traffic'에서 ip에 대한 패킷의 갯
-def data_country(p_df_list, a_df_list):
+def data_country(p_df_list, a_df_list, per, days):
     send_list = []
     coun_l = {}
     df_list = []
@@ -340,20 +345,37 @@ def data_country(p_df_list, a_df_list):
         tmp['amount'] = 0
         tmp['len'] = 0
         send_list.append(tmp.copy())
-        del tmp 
+        del tmp
         
-    # 나라별로 라인 얻고 amount : 갯수 , len : 총 크기
-    # 나라별 데이터 프레임 분할 -> coun_l과 함께 이용
-    # 데이터 추출은 완료 => 날짜 제한 추가해야함 (day 가장 빠른 하루 / week 가장 빠른 하루 + 6일 범위)
-    for c in range(len(c_l)):
-        ips = coun_l[c_l[c]]
+    date=datetime.strptime(days[0],'%Y-%m-%d')
+    start = date
+    end = start + timedelta(days=per-1)
+    
+    #end = time[0] + per # 날짜 + 숫자
+    days_l = []
+    df_list = []
+    
+    for d in days:
+        com = datetime.strptime(d,'%Y-%m-%d')
+        if(end >= com):
+            days_l.append(com.strftime('%Y-%m-%d'))
+    # 시간별로 데이터 프레임을 리스트에 저장
+    for t in range(len(days_l)):
+        df_list.append(a_df_list.loc[a_df_list['local_host_day'].str.contains(days_l[t])])
+        
+    if per == 1:
+        # day
+        cur = df_list[0]
+        
+        for c in range(len(c_l)):
+            ips = coun_l[c_l[c]]
         amount = 0
         sum_len = 0
 
         for ip in ips:
             # pkt_size만 모음
-            src_size = a_df_list[a_df_list['src_ip']==ip]['pkt_size']
-            dst_size = a_df_list[a_df_list['dst_ip']==ip]['pkt_size']
+            src_size = cur[cur['src_ip']==ip]['pkt_size']
+            dst_size = cur[cur['dst_ip']==ip]['pkt_size']
             
             src_size = src_size.astype({'pkt_size':'int'})
             dst_size = dst_size.astype({'pkt_size':'int'})
@@ -367,13 +389,39 @@ def data_country(p_df_list, a_df_list):
 
             sum_len = sum_len + src_sum + dst_sum
         
+        # update send_line
         for l in send_list:
             if l['name'] == c_l[c]:
                 l['amount'] = amount
                 l['len']=sum_len
-    print(send_list)
+    elif per == 7:
+        # week
+        send_list = []
         
+        # week
+        # week
+        for cur_df in df_list: # 날짜 별로 모음
+            for ip in ips: # 나라별 ip
+                # pkt_size만 모음
+                src_size = cur_df[cur_df['src_ip']==ip]['pkt_size']
+                dst_size = cur_df[cur_df['dst_ip']==ip]['pkt_size']
+            
+                src_size = src_size.astype({'pkt_size':'int'})
+                dst_size = dst_size.astype({'pkt_size':'int'})
+            
+                src_c = len(src_size.index)
+                dst_c = len(dst_size.index)
+                amount = amount + src_c + dst_c
     
+                src_sum = src_size.sum()
+                dst_sum = dst_size.sum()
+
+                sum_len = sum_len + src_sum + dst_sum 
+            # update send_line
+            for l in send_list:
+                if l['name'] == c_l[c]:
+                    l['amount'] += amount
+                    l['len'] += sum_len 
         
     return send_list
 
