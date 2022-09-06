@@ -272,3 +272,6 @@ def rawtojson():
 
 def data_day():
     pass
+
+def statical(request):
+    return render(request, 'statical.html')

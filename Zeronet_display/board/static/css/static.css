@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+#greeting{
+    position: relative;
+    color:white;
+}
+
+#teststr{
+    color:whitesmoke;
+}
+
+#graph{
+    position: relative;
+}
+#graph svg{
+/*background-color: rgb(68, 93, 85);*/
+border: #75D5FD 3px;
+}
+
+.bar:hover{
+    opacity:0.5;
+}
+
+.choice{
+    background: white;}
+
+#pie_g{
+    text-anchor: middle;
+    font-size: 2rem;
+}
+    
+.label{
+    font-family: 'Courier New', Courier, monospace;
+    fill:aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /*display: none;*/
+}
+
+.legend{
+    font-family: 'Courier New', Courier, monospace;
+    text-anchor: start;
+}
+
+.select_time{
+    position:relative;
+}
+#input_time{
+    position:absolute;
+    width: 100px;
+    left: 870px;
+    top:50px;
+    border: 1px solid #B76CFD;
+    z-index: 1;
+}
+
+#time_bttn{
+    position:absolute;
+    z-index: 1;
+    left: 975px;
+    top:50px;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid #B76CFD;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    color: #B76CFD;
+}
+
+#time_bttn:hover{
+    background-color: #B76CFD;
+    color: aliceblue;
+}
+
+.timeline{
+    z-index: 0;
+    position: relative;
+    top:70px;
+}
+
+.line{
+    fill:none;
+    stroke-width: 2px;
+}
+
+.outer{
+    width:830px;
+    height:700px;
+    overflow: auto;
+}
+
+.inner{
+    width:1600px;
+    height:700px;
+}
+
+.test{
+    display: block;
+    width:100%;
+    height: 100%;
+}

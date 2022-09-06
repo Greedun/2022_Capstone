@@ -1,0 +1,23 @@
+{% extends "base_sta.html" %}
+
+{% block contents %}
+    <div id = "graph">
+        <div i="first">
+            <svg class = "day_traffic"></svg>
+            <svg class = "country_traffic"></svg>
+        </div>
+        <div id="second" style="position: relative;">
+            <g class="'select_time">
+                <input type="number" placeholder="시간입력:0~24" id="input_time"></input>
+                <button type="button" id="time_bttn">send</button>
+            </g>
+            <svg class = "proto_pie"></svg>
+            <svg class ="traffic_line"></svg>
+        </div>
+        <svg class ="ip_traffic"></svg>
+        <svg class ="tor"></svg>
+        
+    </div>
+    <script type="module" src="/static/js/stats.js" charset="utf-8"></script>
+{% endblock %}
+

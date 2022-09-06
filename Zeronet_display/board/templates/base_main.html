@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src ="https://d3js.org/topojson.v3.min.js"></script>
+    <title>ZeroVisual</title>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+
+    <h1 id="greeting">welcome to ZeroVisual!</h1>
+</head>
+
+<body>
+    <div class="container">
+    {% block contents %}
+    {% endblock %}
+    </div>
+</body>
+
+</html>

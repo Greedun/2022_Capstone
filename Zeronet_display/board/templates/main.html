@@ -1,24 +1,33 @@
-{% extends "base.html" %}
+{% extends "base_main.html" %}
 
 {% block contents %}
-<div class="row mt-5">
-    <div class="col-6">
-        <button class="btn btn-primary btn-block" onclick="location.href='/board/crawler'">크롤링</button>
+    <div class="row mt-5">
+        <div class="col-6">
+            <button class="btn btn-primary btn-block" onclick="location.href='/board/crawler'">크롤링</button>
+        </div>
     </div>
-</div>
 
-<div class="row mt-5">
-    <div class="col-6">
-        <button class="btn btn-primary btn-block" onclick="location.href='/board/packet'">packet</button>
+    <div class="row mt-5">
+        <div class="col-6">
+            <button class="btn btn-primary btn-block" onclick="location.href='/board/packet'">packet</button>
+        </div>
     </div>
-</div>
-
-{% for key in send_json %}
-	<tr>
-		{% for i in send_json.sent_pps %}
-        <td>{{i}}</td><br>
-        {% endfor %}
-	</tr>
-{% endfor %}
+    <div class="row mt-5">
+        <div class="col-6">
+            <button class="btn btn-primary btn-block" onclick="location.href='/board/statical'">statical</button>
+        </div>
+    </div>
+    <div>
+        <svg class="worldmap">
+        </svg>
+    </div>
+    <div class = "tooltip">
+        IP : <span id="ip" class="info"></span><br>
+        peer_id : <span id="peer" class="info"></span><br>
+        region : <span id="region" class="info"></span><br>
+        sent : <span id="sent_traffic" class="info"></span><br>
+        recv : <span id="recv_traffic" class="info"></span><br>
+    </div>
+    <script src = "static/js/index.js"></script>
 
 {% endblock %}

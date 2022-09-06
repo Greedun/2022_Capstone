@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block contents %}
+<div class="row mt-5">
+    <div class="col-6">
+        <button class="btn btn-primary btn-block" onclick="location.href='/board/crawler'">크롤링</button>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-6">
+        <button class="btn btn-primary btn-block" onclick="location.href='/board/packet'">packet</button>
+    </div>
+</div>
+
+{% for key in send_json %}
+	<tr>
+		{% for i in send_json.sent_pps %}
+        <td>{{i}}</td><br>
+        {% endfor %}
+	</tr>
+{% endfor %}
+
+{% endblock %}
