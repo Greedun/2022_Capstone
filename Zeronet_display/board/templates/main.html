@@ -1,22 +1,6 @@
 {% extends "base_main.html" %}
 
 {% block contents %}
-    <div class="row mt-5">
-        <div class="col-6">
-            <button class="btn btn-primary btn-block" onclick="location.href='/board/crawler'">크롤링</button>
-        </div>
-    </div>
-
-    <div class="row mt-5">
-        <div class="col-6">
-            <button class="btn btn-primary btn-block" onclick="location.href='/board/packet'">packet</button>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-6">
-            <button class="btn btn-primary btn-block" onclick="location.href='/board/statical'">statical</button>
-        </div>
-    </div>
     <div>
         <svg class="worldmap">
         </svg>
@@ -28,6 +12,14 @@
         sent : <span id="sent_traffic" class="info"></span><br>
         recv : <span id="recv_traffic" class="info"></span><br>
     </div>
-    <script src = "static/js/index.js"></script>
+    <div class = "plus" style="position: relative; left : 20px">
+            <button type="button" id = "plus">+</button>
+        </div>
+        <div class = "menu_bttns">
+            <button type = "button" id = "menu" onclick="location.href='/board/packet'">raw packets</button><br>
+            <button type = "button" id = "menu" onclick="location.href='/board/statical'">report</button><br>
+            <!--<button type = "button" id = "menu" onclick="location.href='/board/crawler'">Attacks Detect</button>-->
+        <script src = "static/js/index.js"></script>
+        </div>
 
 {% endblock %}
