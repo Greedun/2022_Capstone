@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+/*폰트 바꿈@@@*/
+   #greeting{
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Signika', sans-serif;
+
+     position:relative;
+     left : 20px;
+     color: #fff;
+     text-shadow:
+     /* White glow */ 0 0 7px #fff, 0 0 10px #fff,
+     /* purple glow */ 0 0 42px #b055ff, 0 0 72px #B055FF, 0 0 92px #B055FF, 0 0 102px #B055FF;
+     animation : flicker 6.0s infinite alternate;
+   }
+
+#teststr{
+    color:whitesmoke;
+}
+
+#graph{
+    position: relative;
+}
+#graph svg{
+/*background-color: rgb(68, 93, 85);*/
+border: #75D5FD 3px;
+}
+
+.bar:hover{
+    opacity:0.5;
+}
+
+.choice{
+    background: white;}
+
+#pie_g{
+    text-anchor: middle;
+    font-size: 2rem;
+}
+    
+.label{
+    font-family: 'Courier New', Courier, monospace;
+    fill:aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /*display: none;*/
+}
+
+.legend{
+    font-family: 'Courier New', Courier, monospace;
+    text-anchor: start;
+}
+
+.select_time{
+    position:relative;
+}
+#input_time{
+    position:absolute;
+    width: 100px;
+    left: 870px;
+    top:50px;
+    border: 1px solid #B76CFD;
+    z-index: 1;
+}
+
+#time_bttn{
+    position:absolute;
+    z-index: 1;
+    left: 975px;
+    top:50px;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid #B76CFD;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    color: #B76CFD;
+}
+
+#time_bttn:hover{
+    background-color: #B76CFD;
+    color: aliceblue;
+}
+
+.timeline{
+    z-index: 0;
+    position: relative;
+    top:70px;
+}
+
+.line{
+    fill:none;
+    stroke-width: 2px;
+}
+
+.outer{
+    width:830px;
+    height:700px;
+    overflow: auto;
+}
+
+.inner{
+    width:1600px;
+    height:700px;
+}
+
+.test{
+    display: block;
+    width:100%;
+    height: 100%;
+}

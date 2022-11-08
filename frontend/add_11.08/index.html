@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src ="https://d3js.org/topojson.v3.min.js"></script>
+        <title>ZeroVisual</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+        <h1 id="greeting">welcome to ZeroVisual!</h1>
+        <!--font@@@-->
+        <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,500&family=Neonderthaw&family=Signika&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--svg tag 없어짐@@@-->
+        <div class = "tooltip">
+            IP : <span id="ip" class="info"></span><br>
+            peer_id : <span id="peer" class="info"></span><br>
+            region : <span id="region" class="info"></span><br>
+            sent : <span id="sent_traffic" class="info"></span><br>
+            recv : <span id="recv_traffic" class="info"></span><br>
+        </div>
+        <div class = "plus" style="position: relative; left : 20px">
+            <button type="button" id = "plus">+</button>
+        </div>
+        <div class = "menu_bttns">
+                <button type = "button" id = "menu" link href="https://localhost:3000/stats">report</button><br>
+                <button type = "button" id = "menu" link href = "" >raw packets</button><br>
+                
+        </div>
+        <div>
+            <!--zoom button 추가 @@@-->
+            <svg width = 5px height = 200px viewbox = "20 5 5 170" class = 'bar'>
+                <rect width = "5px" height = "170px" x="20" y="0"></rect>
+            </svg>
+            <button type = "button" class = "zoom_btn" id = "zoom">+</button>
+            <button type = "button" class = "zoom_btn" id = "pan">-</button>
+            
+        </div>
+        <script src = "javascripts/index.js"></script>
+    </body>
+</html>
