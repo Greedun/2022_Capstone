@@ -1,10 +1,6 @@
 {% extends "base_main.html" %}
 
 {% block contents %}
-    <div>
-        <svg class="worldmap">
-        </svg>
-    </div>
     <div class = "tooltip">
         IP : <span id="ip" class="info"></span><br>
         peer_id : <span id="peer" class="info"></span><br>
@@ -14,12 +10,19 @@
     </div>
     <div class = "plus" style="position: relative; left : 20px">
             <button type="button" id = "plus">+</button>
-        </div>
-        <div class = "menu_bttns">
-            <button type = "button" id = "menu" onclick="location.href='/board/packet'">raw packets</button><br>
-            <button type = "button" id = "menu" onclick="location.href='/board/statical'">report</button><br>
-            <!--<button type = "button" id = "menu" onclick="location.href='/board/crawler'">Attacks Detect</button>-->
-        <script src = "static/js/index.js"></script>
-        </div>
-
+    </div>
+    <div class = "menu_bttns">
+        <button type = "button" id = "menu" onclick="location.href='/board/packet'">raw packets</button><br>
+        <button type = "button" id = "menu" onclick="location.href='/board/statical'">report</button><br>
+        <!--<button type = "button" id = "menu" onclick="location.href='/board/crawler'">Attacks Detect</button>-->
+    </div>
+    <div>
+                <!--zoom button 추가 @@@-->
+                <svg width = 5px height = 200px viewbox = "20 5 5 170" class = 'bar'>
+                    <rect width = "5px" height = "170px" x="20" y="0"></rect>
+                </svg>
+                <button type = "button" class = "zoom_btn" id = "zoom">+</button>
+                <button type = "button" class = "zoom_btn" id = "pan">-</button>
+    </div>
+    <script src = "static/js/index.js"></script>
 {% endblock %}

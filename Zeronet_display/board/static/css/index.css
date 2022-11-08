@@ -22,7 +22,10 @@ body{
 }
 
 #greeting{
+  font-family: 'Expletus Sans', cursive;
   font-family: 'Neonderthaw', cursive;
+  font-family: 'Signika', sans-serif;
+
   position:relative;
   left : 20px;
   color: #fff;
@@ -32,7 +35,6 @@ body{
 .worldmap{
   position: absolute;
   top:20%;
-  /*background-color: rgb(47, 47, 47);*/
   width: 100vw;
   height: 80vh;
   fill:#252525;
@@ -53,9 +55,10 @@ body{
 
 #plus{
   background-color:transparent;
-  border :3px solid rgb(192, 101, 238);
+  border :3px solid white;
   border-radius : 5px;
-  color: rgb(192, 101, 238);
+  box-shadow: 0 0 7px #fff, 0 0 20px #b055ff, 0 0 35px #b055ff;
+  color: white;
   width : 30px;
   height : 30px;
 }
@@ -64,10 +67,45 @@ body{
   display: none;
   position: relative;
   left: 20px;
+  top : 10px;
 }
 
 #menu{
   width: 120px;
   height: 30px;
+  border : 3px solid #b055ff;
   border-radius: 5px;
+  background-color: transparent;
+  color : white;
+  font-family :Arial, Helvetica, sans-serif;
+
+}
+
+.zoom_btn{
+  width : 30px;
+  height : 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border : 3px solid white;
+  box-shadow: 0 0 7px #fff, 0 0 20px #b055ff, 0 0 35px #b055ff;
+  color: white;
+  position: absolute;
+}
+/*줌 버튼 스타일@@@*/
+.bar{
+  position: absolute;
+  fill : #b055ff;
+  left : 41px;
+  top : 220px;
+}
+
+#zoom{
+  left : 28px;
+  top : 200px;
+}
+
+#pan{
+  top : 400px;
+  left :28px;
 }
